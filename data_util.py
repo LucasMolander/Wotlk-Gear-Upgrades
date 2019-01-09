@@ -42,16 +42,28 @@ class DataUtil(object):
             print('%s: %s (ilvl %d from %s)' % (slot, piece['Name'], piece['ilvl'], piece['Location']))
 
 
+    #
+    # Returns the tabulated (table) representation of the given list of data items.
+    #
+    # gzFilters is the list of columns (keys) that must be > 0 to appear.
+    # This is useful when you only want to print DPS increases, etc.
+    # Might factor this out into a generic filtering class later.
+    #
     @staticmethod
-    def getTabulated(items, headers, gzFilters):
+    def getTabulated(items, headers, gzFilters=[]):
+        # Each element represents a row of values. 2D list.
         valuesLists = []
+
         for item in items:
+            # If any item has a gzFilter field <= 0,
+            # do not add it to the output
             toAdd = True
             for gzf in gzFilters:
                 if (item[gzf] <= 0):
                     toAdd = False
 
             if (toAdd):
+                # If we add the item to the output, append the list of its values
                 values = [
                     item[h]
                     for h in headers

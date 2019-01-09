@@ -31,11 +31,21 @@ class Globals(object):
 def calculateDiffs(globs):
     # Assign stats to the current gear and print it out
     currentGear = DataUtil.statifyCurrentGear(globs.currentGear, globs.allGear)
-    print('Current gear:')
-    DataUtil.printCurrentGear(currentGear)
+
+    # Print current gear
+    items     = [currentGear[slot] for slot in sorted(list(currentGear.keys()))]
+    headers   = ['Slot', 'Name', 'ilvl', 'Location', 'Boss']
+
+    print('\nCurrent gear:\n')
+    print(DataUtil.getTabulated(items, headers))
+
+    # Print stat DPS
+    print('\n\n\nStat DPS:\n')
+    for stat in globs.statDPS:
+        print('%s:\t%.4f' % (stat, globs.statDPS[stat]))
     print('')
 
-    # Break up all gear by slot
+    # Partition all gear into slots
     allGear = CalcUtil.slotifyAllGear(globs.allGear)
 
     # Return a new object
@@ -47,7 +57,6 @@ def calculateDiffs(globs):
         out[slot] = {}
 
         curPiece = currentGear[slot]
-        print('Current %s: %s' % (slot, curPiece['Name']))
 
         actualSlotString = CalcUtil.removeUnderscore(slot)
         otherPieces = allGear[actualSlotString]
@@ -72,7 +81,7 @@ def printUpgrades(allGear):
         gzFilters    = ['DPSDiff']
 
         print('')
-        print(DataUtil.getTabulated(sortedPieces, headers, gzFilters))
+        print(DataUtil.getTabulated(sortedPieces, headers, gzFilters=gzFilters))
         print('')
 
 
@@ -82,10 +91,6 @@ def main():
     args = parser.parse_args()
 
     globs = Globals(args.sd)
-
-    print('\nStat DPS:')
-    pprint(globs.statDPS)
-    print('')
 
     allGear = calculateDiffs(globs)
     printUpgrades(allGear)
