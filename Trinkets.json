@@ -1,0 +1,171 @@
+[
+    {
+        "Name": "Darkmoon Card: Greatness",
+        "Flat Stats": {
+            "Strength": 90
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "Strength": 300
+            },
+            "Duration": 15,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Vestige of Haldor",
+        "Flat Stats": {
+            "Haste": 65
+        },
+        "On Hit": {
+            "Type": "Damage",
+            "Damage": 1280,
+            "Type": "Spell",
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Goblin Repetition Reducer",
+        "Flat Stats": {
+            "AP": 98
+        }
+    },
+    {
+        "Name": "Incisor Fragment",
+        "Flat Stats": {
+            "AP": 148
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "Arpen": 291
+            },
+            "Duration": 20,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Meteorite Whetstone",
+        "Flat Stats": {
+            "Crit": 74
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "Haste": 444
+            },
+            "Duration": 10,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Sphere of Red Dragon's Blood",
+        "Flat Stats": {
+            "Hit": 55
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 670
+            },
+            "Duration": 20,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Banner of Victory",
+        "Flat Stats": {
+            "Arpen": 84
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1008
+            },
+            "Duration": 10,
+            "ICD": 55
+        }
+    },
+    {
+        "Name": "Mirror of Truth",
+        "Flat Stats": {
+            "Crit": 84
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1000
+            },
+            "Duration": 10,
+            "ICD": 55
+        }
+    },
+    {
+        "Name": "Loatheb's Shadow",
+        "Flat Stats": {
+            "Crit": 84
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 670
+            },
+            "Duration": 20,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Fury of the Five Flights",
+        "Flat Stats": null,
+        "On Hit": {
+            "Type": "Stacks",
+            "Stacks": {
+                "N": 20,
+                "Stats": {
+                    "AP": 16
+                }
+            }
+        }
+    },
+    {
+        "Name": "Grim Toll",
+        "Flat Stats": {
+            "Hit": 83
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "Arpen": 612
+            },
+            "Duration": 10,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Bandit's Insignia",
+        "Flat Stats": {
+            "AP": 190
+        },
+        "On Hit": {
+            "Type": "Damage",
+            "Damage": 1280,
+            "Type": "Spell",
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Pyrite Infuser",
+        "Flat Stats": {
+            "Hit": 95
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1234
+            },
+            "Duration": 10,
+            "ICD": 55
+        }
+    },
+]

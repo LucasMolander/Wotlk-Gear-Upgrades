@@ -5,6 +5,8 @@ class CalcUtil(object):
 
 
     #
+    # Partitions gear into each slot.
+    #
     # Transform map from being name --> piece to be
     # slot --> (name --> piece).
     #

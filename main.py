@@ -3,6 +3,7 @@ from file_util import FileUtil
 from calc_util import CalcUtil
 
 import argparse
+import copy
 
 from pprint import pprint
 
@@ -53,6 +54,10 @@ def calculateDiffs(globs):
     out = {}
 
     # For each current slot
+
+    # print(list(currentGear.keys()))
+    # exit(0)
+
     for slot in currentGear:
         out[slot] = {}
 
@@ -61,7 +66,9 @@ def calculateDiffs(globs):
         actualSlotString = CalcUtil.removeUnderscore(slot)
         otherPieces = allGear[actualSlotString]
         for name in otherPieces:
-            otherPiece = otherPieces[name]
+            # Making a deep copy gets rid of issues with having 2 ring slots.
+            # The second DPSDiff calculation would clobber the original DPSDiff calculation.
+            otherPiece = copy.deepcopy(otherPieces[name])
             otherPiece['DPSDiff'] = CalcUtil.calcDPSDiff(curPiece, otherPiece, globs.statDPS)
 
             out[slot][name] = otherPiece
