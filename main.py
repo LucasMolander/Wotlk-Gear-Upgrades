@@ -4,13 +4,12 @@ from calc_util import CalcUtil
 
 import argparse
 
-from tabulate import tabulate
 from pprint import pprint
 
 
 class Globals(object):
 
-    def __init__(self, epPath):
+    def __init__(self, sdPath):
         """
         Slots (currently - adding weapons and trinkets later):
         'Back', 'Belt', 'Bracer', 'Chest', 'Feet',
@@ -23,7 +22,7 @@ class Globals(object):
         }
 
         self.currentGear = FileUtil.getJSONContents(paths['currentGear'])
-        self.statDPS     = FileUtil.getJSONContents(epPath)
+        self.statDPS     = FileUtil.getJSONContents(sdPath)
 
         allGearList  = FileUtil.getJSONContents(paths['allGear'])
         self.allGear = DataUtil.toMap(allGearList, 'Name')
@@ -31,9 +30,9 @@ class Globals(object):
 
 def calculateDiffs(globs):
     # Assign stats to the current gear and print it out
-    currentGear = CalcUtil.statifyCurrentGear(globs.currentGear, globs.allGear)
+    currentGear = DataUtil.statifyCurrentGear(globs.currentGear, globs.allGear)
     print('Current gear:')
-    CalcUtil.printCurrentGear(currentGear)
+    DataUtil.printCurrentGear(currentGear)
     print('')
 
     # Break up all gear by slot
@@ -67,35 +66,22 @@ def printUpgrades(allGear):
         print('\n\n%s' % slot.upper())
 
         slotPieces = allGear[slot]
-        sortedPieces = sorted(slotPieces.values(), lambda p1, p2: int(p2['DPSDiff'] - p1['DPSDiff']))
 
-        headers = [
-            'DPSDiff',
-            'Name',
-            'ilvl',
-            'Location',
-            'Boss'
-        ]
-        valuesLists = []
-        for piece in sortedPieces:
-            if (piece['DPSDiff'] > 0):
-                values = [
-                    piece[h]
-                    for h in headers
-                ]
-                valuesLists.append(values)
+        sortedPieces = sorted(slotPieces.values(), lambda p1, p2: int(p2['DPSDiff'] - p1['DPSDiff']))
+        headers      = ['DPSDiff', 'Name', 'ilvl', 'Location', 'Boss']
+        gzFilters    = ['DPSDiff']
 
         print('')
-        print(tabulate(valuesLists, headers=headers))
+        print(DataUtil.getTabulated(sortedPieces, headers, gzFilters))
         print('')
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ep', type=str, required=True, help='EP values file location')
+    parser.add_argument('--sd', type=str, required=True, help='Stat DPS values file location')
     args = parser.parse_args()
 
-    globs = Globals(args.ep)
+    globs = Globals(args.sd)
 
     print('\nStat DPS:')
     pprint(globs.statDPS)

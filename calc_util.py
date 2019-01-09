@@ -5,28 +5,6 @@ class CalcUtil(object):
 
 
     #
-    # Because slotToPiece is just names.
-    # Use the allGear map to get stats.
-    #
-    @staticmethod
-    def statifyCurrentGear(slotToPiece, allGear):
-        return {
-            slot: allGear[slotToPiece[slot]]
-            for slot in slotToPiece
-        }
-
-
-    #
-    # Just prints the current gear and where it's from.
-    #
-    @staticmethod
-    def printCurrentGear(slotToPiece):
-        for slot in slotToPiece:
-            piece = slotToPiece[slot]
-            print('%s: %s (ilvl %d from %s)' % (slot, piece['Name'], piece['ilvl'], piece['Location']))
-
-
-    #
     # Transform map from being name --> piece to be
     # slot --> (name --> piece).
     #
