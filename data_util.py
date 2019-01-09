@@ -32,17 +32,6 @@ class DataUtil(object):
 
 
     #
-    # Just prints the current gear and where it's from.
-    # Where did you come from, Cotton Eye Joe?
-    #
-    @staticmethod
-    def printCurrentGear(slotToPiece):
-        for slot in slotToPiece:
-            piece = slotToPiece[slot]
-            print('%s: %s (ilvl %d from %s)' % (slot, piece['Name'], piece['ilvl'], piece['Location']))
-
-
-    #
     # Returns the tabulated (table) representation of the given list of data items.
     #
     # gzFilters is the list of columns (keys) that must be > 0 to appear.

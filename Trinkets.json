@@ -168,4 +168,44 @@
             "ICD": 55
         }
     },
+    {
+        "Name": "Mark of Norgannon",
+        "Flat Stats": {
+            "WE": 69
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "Haste": 491
+            },
+            "Duration": 20,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Wrathstone",
+        "Flat Stats": {
+            "Crit": 108
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 856
+            },
+            "Duration": 20,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Vanquished Clutches of Yogg-Saron",
+        "Flat Stats": {
+            "Crit": 136
+        },
+        "On Use": {
+            "Type": "DPS",
+            "DPS": 350,
+            "Duration": 40,
+            "CD": 120
+        }
+    },
 ]
