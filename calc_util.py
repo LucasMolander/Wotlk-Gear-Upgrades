@@ -1,8 +1,20 @@
+from main import Globals
+
 #
 # Contains functions that are helpful for calculating DPS stuff.
 #
 class CalcUtil(object):
 
+    #
+    # 
+    #
+    @staticmethod
+    def getTotalStats(nameToPiece):
+        allStats = {}
+        for stat in Globals.allStats:
+            allStats[stat] = sum([nameToPiece[name][stat] for name in nameToPiece])
+
+        return allStats
 
     #
     # Partitions gear into each slot.
@@ -78,3 +90,87 @@ class CalcUtil(object):
         gemDelta = CalcUtil.calcGemDPS(piece2) - CalcUtil.calcGemDPS(piece1)
 
         return (statDelta + gemDelta)
+
+
+    @staticmethod
+    def calcTrinketUtil(trinket):
+        pass
+
+
+
+
+# Ret DPS calc
+
+# # NORM PROCS
+# (
+#     (
+#         # Number of critical-hit norm procs
+#         (CritTotal% * 'DPS Calc'!D79)
+#         *
+#         (
+#             # Half of crit damage
+#             (0.5 * 'DPS Calc'!F14)
+#             +
+
+#             # SoV crit
+#             IF(SealSelection="SoV",'DPS Calc'!J30,0)
+#             +
+
+#             # SoC crit
+#             IF(SealSelection="SoC",'DPS Calc'!J11,0)
+#             +
+
+#             # SoR crit
+#             IF(SealSelection="SoR",'DPS Calc'!J18,0)
+#         )
+#     )
+#     +
+#     (
+#         # Number of regular-hit norm procs
+#         ((1 - CritTotal%) * 'DPS Calc'!D79)
+#         *
+#         (
+#             # Same shit as above
+#             (0.5 * 'DPS Calc'!F13)
+#             +
+#             IF(SealSelection="SoV",'DPS Calc'!J29,0)
+#             +
+#             IF(SealSelection="SoC",'DPS Calc'!J10,0)
+#             +
+#             IF(SealSelection="SoR",'DPS Calc'!J18,0)
+#         )
+#     )
+
+
+# AW PROCS
+#     +
+#     (
+#         (CritTotal% * 'DPS Calc'!D80)
+#         *
+#         (
+#             (0.5 * 'DPS Calc'!G14)
+#             +
+#             IF(SealSelection="SoV",'DPS Calc'!K30,0)
+#             + 
+#             IF(SealSelection="SoC",'DPS Calc'!K11,0)
+#             +
+#             IF(SealSelection="SoR",'DPS Calc'!K18,0)
+#         )
+#     )
+#     +
+#     (
+#         ((1 - CritTotal%) * 'DPS Calc'!D80)
+#         *
+#         (
+#             (0.5 * 'DPS Calc'!G13)
+#             +
+#             IF(SealSelection="SoV",'DPS Calc'!K29,0)
+#             +
+#             IF(SealSelection="SoC",'DPS Calc'!K10,0)
+#             +
+#             IF(SealSelection="SoR",'DPS Calc'!K18,0)
+#         )
+#     )
+# )
+# /
+# Length

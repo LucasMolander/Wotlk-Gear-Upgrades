@@ -208,4 +208,292 @@
             "CD": 120
         }
     },
+    {
+        "Name": "Blood of the Old God",
+        "Flat Stats": {
+            "Hit": 108
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1284
+            },
+            "Duration": 10,
+            "ICD": 55
+        }
+    },
+    {
+        "Name": "Mjolnir Runestone",
+        "Flat Stats": {
+            "Crit": 102
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "Arpen": 665
+            },
+            "Duration": 10,
+            "ICD": 55
+        }
+    },
+    {
+        "Name": "Dark Matter",
+        "Flat Stats": {
+            "AP": 222
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "Crit": 612
+            },
+            "Duration": 10,
+            "ICD": 55
+        }
+    },
+    {
+        "Name": "Victor's Call",
+        "Flat Stats": {
+            "WE": 83
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 215
+            },
+            "Duration": 120,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Needle-Encrusted Scorpion",
+        "Flat Stats": {
+            "Crit": 114
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "Arpen": 678
+            },
+            "Duration": 10,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Comet's Trail",
+        "Flat Stats": {
+            "AP": 240
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "Haste": 726
+            },
+            "Duration": 10,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Mark of Supremacy",
+        "Flat Stats": {
+            "Hit": 128
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1024
+            },
+            "Duration": 20,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Shard of the Crystal Heart",
+        "Flat Stats": {
+            "Hit": 128
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "Haste": 512
+            },
+            "Duration": 20,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Victor's Call (Heroic)",
+        "Flat Stats": {
+            "WE": 83
+        },
+        "On Use": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 150
+            },
+            "Duration": 120,
+            "CD": 120
+        }
+    },
+    {
+        "Name": "Death's Verdict",
+        "Flat Stats": {
+            "AP": 256
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Subtype": "Highest",
+            "Stats": {
+                "Strength": 450,
+                "Agi": 450
+            },
+            "Duration": 15,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Whispering Fanged Skull",
+        "Flat Stats": {
+            "Crit": 131
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1100
+            },
+            "Duration": 15,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Death's Verdict (Heroic)",
+        "Flat Stats": {
+            "AP": 288
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Subtype": "Highest",
+            "Stats": {
+                "Strength": 510,
+                "Agi": 510
+            },
+            "Duration": 15,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Whispering Fanged Skull (Heroic)",
+        "Flat Stats": {
+            "Crit": 148
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1250
+            },
+            "Duration": 15,
+            "ICD": 50
+        }
+    },
+    {
+        "Name": "Deathbringer's Will",
+        "Flat Stats": {
+            "Arpen": 155
+        },
+        "On Hit": {
+            "Type": "DBW",
+            "Class Stats": {
+                "Death Knight": {
+                    "Strength": 600,
+                    "Haste":    600,
+                    "Crit":     600
+                },
+                "Druid": {
+                    "Agi":      600,
+                    "Haste":    600,
+                    "Strength": 600
+                },
+                "Hunter": {
+                    "Agi":  600,
+                    "Crit": 600,
+                    "AP":   1200
+                },
+                "Paladin": {
+                    "Strength": 600,
+                    "Haste":    600,
+                    "Crit":     600
+                },
+                "Rogue": {
+                    "Agi":   600,
+                    "Haste": 600,
+                    "AP":    1200
+                },
+                "Shaman": {
+                    "Agi":   600,
+                    "AP":    1200,
+                    "Haste": 600
+                },
+                "Warrior": {
+                    "Strength": 600,
+                    "Haste":    600,
+                    "Crit":     600
+                }
+            },
+            "Duration": 30,
+            "ICD": 105
+        }
+    },
+    {
+        "Name": "Deathbringer's Will (Heroic)",
+        "Flat Stats": {
+            "Arpen": 167
+        },
+        "On Hit": {
+            "Type": "DBW",
+            "Class Stats": {
+                "Death Knight": {
+                    "Strength": 700,
+                    "Haste":    700,
+                    "Crit":     700
+                },
+                "Druid": {
+                    "Agi":      700,
+                    "Haste":    700,
+                    "Strength": 700
+                },
+                "Hunter": {
+                    "Agi":  700,
+                    "Crit": 700,
+                    "AP":   1400
+                },
+                "Paladin": {
+                    "Strength": 700,
+                    "Haste":    700,
+                    "Crit":     700
+                },
+                "Rogue": {
+                    "Agi":   700,
+                    "Haste": 700,
+                    "AP":    1400
+                },
+                "Shaman": {
+                    "Agi":   700,
+                    "AP":    1400,
+                    "Haste": 700
+                },
+                "Warrior": {
+                    "Strength": 700,
+                    "Haste":    700,
+                    "Crit":     700
+                }
+            },
+            "Duration": 30,
+            "ICD": 105
+        }
+    },
+    {
+        "Name": "Tiny Abomination in a Jar",
+        "Flat Stats": {
+            "Hit": 0
+        }
+    },
 ]

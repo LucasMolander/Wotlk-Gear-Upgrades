@@ -10,6 +10,8 @@ from pprint import pprint
 
 class Globals(object):
 
+    allStats = ['AP', 'Str', 'Agi', 'Crit', 'Hit', 'WE', 'Haste', 'Arpen']
+
     def __init__(self, sdPath):
         """
         Slots (currently - adding weapons and trinkets later):
@@ -27,6 +29,10 @@ class Globals(object):
 
         allGearList  = FileUtil.getJSONContents(paths['allGear'])
         self.allGear = DataUtil.toMap(allGearList, 'Name')
+
+        self.totalStats = CalcUtil.getTotalStats(self.allGear, list(self.statDPS.keys()))
+        pprint(self.totalStats)
+        exit()
 
 
 def calculateDiffs(globs):
