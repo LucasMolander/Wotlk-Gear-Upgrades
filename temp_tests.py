@@ -5,6 +5,7 @@
 
 from data_util import DataUtil
 from file_util import FileUtil
+from calc_util import CalcUtil
 
 from main import Globals
 
@@ -45,11 +46,33 @@ class TempTests(object):
         print('%d rings' % nRings)
 
 
-def main():
-    # globs = Globals('EP_Assassination.json')
-    # TempTests.printSlots(globs.allGear)
+    #
+    # Prints out all gear of a given slot
+    #
+    @staticmethod
+    def printAllGear(slot, globs):
+        nameToPiece = globs.allGear[slot]
 
-    TempTests.ensureUniqueGearNames()
+        for name in nameToPiece:
+            piece = nameToPiece[name]
+            piece['DPS'] = CalcUtil.calcDPS(piece, globs.statDPS, globs.charInfo)
+
+        items = sorted(list(nameToPiece.values()), lambda p1, p2: int(p2['DPS'] - p1['DPS']) )
+        headers = ['Name', 'ilvl', 'DPS', 'Location', 'Boss']
+
+        print(DataUtil.getTabulated(items, headers))
+
+        # for t in trinkets:
+        #     print(t['Name'])
+
+
+def main():
+    # globs = Globals('SD_Assassination.json')
+    # TempTests.printSlots(globs.allGear)
+    # TempTests.ensureUniqueGearNames()
+
+    globs = Globals('SD_Combat.json')
+    TempTests.printAllGear('Trinket', globs)
 
 
 if __name__ == '__main__':

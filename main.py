@@ -20,10 +20,13 @@ class Globals(object):
         """
 
         paths = {
+            'charInfo':    'CharacterInfo.json',
             'allGear':     'AllGear.json',
             'currentGear': 'CurrentGear.json',
             'trinkets':    'Trinkets.json'
         }
+
+        self.charInfo = FileUtil.getJSONContents(paths['charInfo'])
 
         self.statDPS = FileUtil.getJSONContents(sdPath)
 
@@ -46,10 +49,19 @@ class Globals(object):
         currentGearNames = FileUtil.getJSONContents(paths['currentGear'])
         self.currentGear = DataUtil.statifyNamedGear(currentGearNames, self.allGear)
 
+
+
+        # TODO
+        # SEE IF THIS DOESN'T BREAK THINGS LATER ON IN EXECUTION
+        # (Might not be kosher if slotified this early)
+        self.allGear = CalcUtil.slotifyAllGear(self.allGear)
+
+
+
         # Calculate each piece's DPS
         for name in self.currentGear:
             piece = self.currentGear[name]
-            piece['DPS'] = CalcUtil.calcDPS(piece, self.statDPS)
+            piece['DPS'] = CalcUtil.calcDPS(piece, self.statDPS, self.charInfo)
 
         # Get some basic overall stats about the current gear
         self.totalStats = CalcUtil.getTotalStats(self.currentGear, Globals.allStats)
@@ -74,8 +86,15 @@ def calculateDiffs(globs):
         print('%s:\t%.4f' % (stat, globs.statDPS[stat]))
     print('')
 
-    # Partition all gear into slots
-    allGear = CalcUtil.slotifyAllGear(globs.allGear)
+
+
+    # TODO
+    # Factored this out into the Globals constructor.
+    # Might want to get rid of this for sure later.
+    # # Partition all gear into slots
+    # allGear = CalcUtil.slotifyAllGear(globs.allGear)
+
+
 
     # Return a new object
     # Because mutation is wonky

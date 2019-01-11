@@ -6,15 +6,51 @@
         "Boss": "",
         "ilvl": 200,
         "Flat Stats": {
-            "Strength": 90
+            "Agi": 90
         },
         "On Hit": {
             "Type": "Stats",
             "Stats": {
-                "Strength": 300
+                "Agi": 300
             },
             "Duration": 15,
             "ICD": 50
+        }
+    },
+    {
+        "Name": "Sharpened Twilight Scale",
+        "Category": "The Obsidian Sanctum 25",
+        "Location": "OS 25man",
+        "Boss": "Halion",
+        "ilvl": 271,
+        "Flat Stats": {
+            "Arpen": 163
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1304
+            },
+            "Duration": 15,
+            "ICD": 46
+        }
+    },
+    {
+        "Name": "Sharpened Twilight Scale (Heroic)",
+        "Category": "Heroic The Obsidian Sanctum 25",
+        "Location": "Heroic OS 25man",
+        "Boss": "Halion",
+        "ilvl": 284,
+        "Flat Stats": {
+            "Arpen": 184
+        },
+        "On Hit": {
+            "Type": "Stats",
+            "Stats": {
+                "AP": 1472
+            },
+            "Duration": 15,
+            "ICD": 46
         }
     },
     {
@@ -157,7 +193,7 @@
         "Location": "OS 10man",
         "Boss": "Sartharion",
         "ilvl": 213,
-        "Flat Stats": null,
+        "Flat Stats": {},
         "On Hit": {
             "Type": "Stacks",
             "Stacks": {

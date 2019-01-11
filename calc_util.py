@@ -1,3 +1,5 @@
+import copy
+
 #
 # Contains functions that are helpful for calculating DPS stuff.
 #
@@ -74,7 +76,7 @@ class CalcUtil(object):
 
         # Zero out null values (just in case)
         for stat in stats:
-            if (piece[stat] is None):
+            if (stat not in piece or piece[stat] is None):
                 piece[stat] = 0
 
         return sum([piece[stat] * statDPS[stat] for stat in stats])
@@ -97,13 +99,66 @@ class CalcUtil(object):
         return totalDPS
 
 
+    @staticmethod
+    def calcTrinketDPS(trinket, statDPS, charInfo):
+        # Always calculate flat stats
+        flatStatDPS = CalcUtil.calcStatDPS(trinket['Flat Stats'], statDPS)
+
+        # Chance on hit to proc (Stats, Damage, Stacks, or DBW)
+        if ('On Hit' in trinket):
+            onHit = trinket['On Hit']
+
+            if (onHit['Type'] == 'Stats'):
+                # Just add stats, multiplying by the ratio of time they exist
+                uptimePct = float(onHit['Duration']) / float(onHit['ICD'])
+                moreStats = onHit['Stats']
+                moreDPS   = CalcUtil.calcStatDPS(moreStats, statDPS)
+                extraDPS  = uptimePct * moreDPS
+            elif (onHit['Type'] == 'Damage'):
+                # Ignore crit for now because these trinkets are ass anyway
+                extraDPS = float(onHit['Damage']) / float(onHit['ICD'])
+            elif (onHit['Type'] == 'Stacks'):
+                stacks = onHit['Stacks']
+                n = stacks['N']
+                moreStats = copy.deepcopy(stacks['Stats'])
+
+                # Assume max stacks
+                for ms in moreStats:
+                    moreStats[ms] *= n
+
+                # Multiply by ~0.975 to account for ramp up
+                fightLength = 300.0
+                stacksPerSecond = 4.0 / 3.0
+                tToMaxStacks = float(n) / stacksPerSecond
+                ratioNotMax = tToMaxStacks / fightLength
+                multiplier = 1.0 - (ratioNotMax / 2.0)
+
+                moreDPS = CalcUtil.calcStatDPS(moreStats, statDPS)
+                extraDPS = multiplier * moreDPS
+            elif (onHit['Type'] == 'DBW'):
+                uptimePct = float(onHit['Duration']) / float(onHit['ICD'])
+
+                classStats = onHit['Class Stats']
+                moreStats = classStats[charInfo['Class']]
+                moreDPS = CalcUtil.calcStatDPS(moreStats, statDPS)
+
+                extraDPS = (moreDPS * uptimePct) / 3.0
+            else:
+                extraDPS = 0
+        else:
+            extraDPS = 0
+
+
+        return flatStatDPS + extraDPS
+
+
     #
     # Calculates the DPS of a piece.
     #
     @staticmethod
-    def calcDPS(piece, statDPS):
+    def calcDPS(piece, statDPS, charInfo):
         if (piece['Slot'] == 'Trinket'):
-            return 0
+            return CalcUtil.calcTrinketDPS(piece, statDPS, charInfo)
         else:
             statDPS = CalcUtil.calcStatDPS(piece, statDPS)
             gemDPS = CalcUtil.calcGemDPS(piece)
