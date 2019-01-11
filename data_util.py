@@ -20,14 +20,14 @@ class DataUtil(object):
 
 
     #
-    # Because slotToPiece is just names.
-    # Use the allGear map to get stats.
+    # Because slotToName is just names.
+    # Use the nameToPiece map to get stats.
     #
     @staticmethod
-    def statifyCurrentGear(slotToPiece, allGear):
+    def statifyNamedGear(slotToName, nameToPiece):
         return {
-            slot: allGear[slotToPiece[slot]]
-            for slot in slotToPiece
+            slot: nameToPiece[slotToName[slot]]
+            for slot in slotToName
         }
 
 

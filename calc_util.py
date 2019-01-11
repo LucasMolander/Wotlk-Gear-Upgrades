@@ -1,20 +1,36 @@
-from main import Globals
-
 #
 # Contains functions that are helpful for calculating DPS stuff.
 #
 class CalcUtil(object):
 
     #
-    # 
+    # asdf
     #
     @staticmethod
-    def getTotalStats(nameToPiece):
+    def getTotalStats(nameToPiece, statsToGet):
         allStats = {}
-        for stat in Globals.allStats:
-            allStats[stat] = sum([nameToPiece[name][stat] for name in nameToPiece])
+        for stat in statsToGet:
+            # allStats[stat] = sum([nameToPiece[name][stat] for name in nameToPiece])
+
+            allStats[stat] = 0
+            for name in nameToPiece:
+                piece = nameToPiece[name]
+
+                if (piece['Slot'] == 'Trinket'):
+                    flatStats = piece['Flat Stats']
+                    added = flatStats[stat] if stat in flatStats else 0
+                else:
+                    added = piece[stat]
+
+                allStats[stat] += added
+                if (added > 0):
+                    print('%s gives %.2f %s' % (piece['Name'], added, stat))
+
+
+            print('\n%.2f total %s\n\n' % (allStats[stat], stat))
 
         return allStats
+
 
     #
     # Partitions gear into each slot.
@@ -81,15 +97,31 @@ class CalcUtil(object):
         return totalDPS
 
 
+    #
+    # Calculates the DPS of a piece.
+    #
     @staticmethod
-    def calcDPSDiff(piece1, piece2, statDPS):
-        # Calculate the DPS delta due to the stats
-        statDelta = CalcUtil.calcStatDPS(piece2, statDPS) - CalcUtil.calcStatDPS(piece1, statDPS)
+    def calcDPS(piece, statDPS):
+        if (piece['Slot'] == 'Trinket'):
+            return 0
+        else:
+            statDPS = CalcUtil.calcStatDPS(piece, statDPS)
+            gemDPS = CalcUtil.calcGemDPS(piece)
+            return statDPS + gemDPS
 
-        # Calculate the DPS delta due to the gems
-        gemDelta = CalcUtil.calcGemDPS(piece2) - CalcUtil.calcGemDPS(piece1)
 
-        return (statDelta + gemDelta)
+    # @staticmethod
+    # def calcDPSDiff(piece1, piece2, statDPS):
+    #     if (piece1['slot'] == 'Trinket'):
+    #         pass
+    #     else:
+    #         # Calculate the DPS delta due to the stats
+    #         statDelta = CalcUtil.calcStatDPS(piece2, statDPS) - CalcUtil.calcStatDPS(piece1, statDPS)
+
+    #         # Calculate the DPS delta due to the gems
+    #         gemDelta = CalcUtil.calcGemDPS(piece2) - CalcUtil.calcGemDPS(piece1)
+
+    #         return (statDelta + gemDelta)
 
 
     @staticmethod

@@ -1,6 +1,10 @@
 [
     {
         "Name": "Darkmoon Card: Greatness",
+        "Category": "Craftable",
+        "Location": "Craftable",
+        "Boss": "",
+        "ilvl": 200,
         "Flat Stats": {
             "Strength": 90
         },
@@ -15,6 +19,10 @@
     },
     {
         "Name": "Vestige of Haldor",
+        "Category": "Pre-Raid Dungeons",
+        "Location": "Utgarde Pinnacle",
+        "Boss": "King Ymiron",
+        "ilvl": 187,
         "Flat Stats": {
             "Haste": 65
         },
@@ -27,12 +35,20 @@
     },
     {
         "Name": "Goblin Repetition Reducer",
+        "Category": "Vendor / Badge",
+        "Location": "Vendor",
+        "Boss": "Venture Company",
+        "ilvl": 150,
         "Flat Stats": {
             "AP": 98
         }
     },
     {
         "Name": "Incisor Fragment",
+        "Category": "Pre-Raid Dungeons",
+        "Location": "Heroic Drak'tharon",
+        "Boss": "King Dred",
+        "ilvl": 200,
         "Flat Stats": {
             "AP": 148
         },
@@ -47,6 +63,10 @@
     },
     {
         "Name": "Meteorite Whetstone",
+        "Category": "Pre-Raid Dungeons",
+        "Location": "Heroic Utgarde Pinnacle",
+        "Boss": "King Ymiron",
+        "ilvl": 200,
         "Flat Stats": {
             "Crit": 74
         },
@@ -61,6 +81,10 @@
     },
     {
         "Name": "Sphere of Red Dragon's Blood",
+        "Category": "Pre-Raid Dungeons",
+        "Location": "The Nexus",
+        "Boss": "Keristrasza",
+        "ilvl": 200,
         "Flat Stats": {
             "Hit": 55
         },
@@ -75,6 +99,10 @@
     },
     {
         "Name": "Banner of Victory",
+        "Category": "Pre-Raid Dungeons",
+        "Location": "Trial of the Champion",
+        "Boss": "Confessor Paletress",
+        "ilvl": 200,
         "Flat Stats": {
             "Arpen": 84
         },
@@ -89,6 +117,10 @@
     },
     {
         "Name": "Mirror of Truth",
+        "Category": "Vendor / Badge",
+        "Location": "Badge",
+        "Boss": "40 EoH",
+        "ilvl": 200,
         "Flat Stats": {
             "Crit": 84
         },
@@ -103,6 +135,10 @@
     },
     {
         "Name": "Loatheb's Shadow",
+        "Category": "Naxxramas 10",
+        "Location": "Naxx 10man",
+        "Boss": "Loatheb",
+        "ilvl": 200,
         "Flat Stats": {
             "Crit": 84
         },
@@ -117,6 +153,10 @@
     },
     {
         "Name": "Fury of the Five Flights",
+        "Category": "Obsidian Sanctum 10",
+        "Location": "OS 10man",
+        "Boss": "Sartharion",
+        "ilvl": 213,
         "Flat Stats": null,
         "On Hit": {
             "Type": "Stacks",
@@ -130,6 +170,10 @@
     },
     {
         "Name": "Grim Toll",
+        "Category": "Naxxramas 25",
+        "Location": "Naxx 25man",
+        "Boss": "Grobbulus",
+        "ilvl": 213,
         "Flat Stats": {
             "Hit": 83
         },
@@ -144,6 +188,10 @@
     },
     {
         "Name": "Bandit's Insignia",
+        "Category": "Naxxramas 25",
+        "Location": "Naxx 25man",
+        "Boss": "Sapphiron",
+        "ilvl": 213,
         "Flat Stats": {
             "AP": 190
         },
@@ -156,6 +204,10 @@
     },
     {
         "Name": "Pyrite Infuser",
+        "Category": "Ulduar 10",
+        "Location": "Uld 10man",
+        "Boss": "Flame Leviathan",
+        "ilvl": 219,
         "Flat Stats": {
             "Hit": 95
         },
@@ -170,6 +222,10 @@
     },
     {
         "Name": "Mark of Norgannon",
+        "Category": "Eye of Eternity 25",
+        "Location": "EoE 25man",
+        "Boss": "Malygos",
+        "ilvl": 226,
         "Flat Stats": {
             "WE": 69
         },
@@ -184,6 +240,10 @@
     },
     {
         "Name": "Wrathstone",
+        "Category": "Ulduar 25",
+        "Location": "Uld 25man",
+        "Boss": "Kologarn",
+        "ilvl": 226,
         "Flat Stats": {
             "Crit": 108
         },
@@ -198,6 +258,10 @@
     },
     {
         "Name": "Vanquished Clutches of Yogg-Saron",
+        "Category": "Ulduar 25",
+        "Location": "Uld 25man",
+        "Boss": "Yogg-Saron",
+        "ilvl": 226,
         "Flat Stats": {
             "Crit": 136
         },
@@ -210,6 +274,10 @@
     },
     {
         "Name": "Blood of the Old God",
+        "Category": "Ulduar 25",
+        "Location": "Uld 25man",
+        "Boss": "Yogg-Saron",
+        "ilvl": 226,
         "Flat Stats": {
             "Hit": 108
         },
@@ -224,6 +292,10 @@
     },
     {
         "Name": "Mjolnir Runestone",
+        "Category": "Ulduar 10",
+        "Location": "Uld 10man",
+        "Boss": "Thorim (Hard)",
+        "ilvl": 226,
         "Flat Stats": {
             "Crit": 102
         },
@@ -238,6 +310,10 @@
     },
     {
         "Name": "Dark Matter",
+        "Category": "Ulduar 10",
+        "Location": "Uld 10man",
+        "Boss": "Algalon",
+        "ilvl": 226,
         "Flat Stats": {
             "AP": 222
         },
@@ -252,6 +328,10 @@
     },
     {
         "Name": "Victor's Call",
+        "Category": "Trial of the Crusader 10",
+        "Location": "Trial 10man",
+        "Boss": "Faction Champions",
+        "ilvl": 232,
         "Flat Stats": {
             "WE": 83
         },
@@ -266,6 +346,10 @@
     },
     {
         "Name": "Needle-Encrusted Scorpion",
+        "Category": "Pre-Raid Dungeons",
+        "Location": "Heroic The Forge of Souls",
+        "Boss": "Devourer of Souls",
+        "ilvl": 232,
         "Flat Stats": {
             "Crit": 114
         },
@@ -280,6 +364,10 @@
     },
     {
         "Name": "Comet's Trail",
+        "Category": "Ulduar 25",
+        "Location": "Uld 25man",
+        "Boss": "Algalon",
+        "ilvl": 239,
         "Flat Stats": {
             "AP": 240
         },
@@ -294,6 +382,10 @@
     },
     {
         "Name": "Mark of Supremacy",
+        "Category": "Vendor / Badge",
+        "Location": "Vendor",
+        "Boss": "Triumph",
+        "ilvl": 245,
         "Flat Stats": {
             "Hit": 128
         },
@@ -308,6 +400,10 @@
     },
     {
         "Name": "Shard of the Crystal Heart",
+        "Category": "Vendor / Badge",
+        "Location": "Vendor",
+        "Boss": "Triumph",
+        "ilvl": 245,
         "Flat Stats": {
             "Hit": 128
         },
@@ -322,6 +418,10 @@
     },
     {
         "Name": "Victor's Call (Heroic)",
+        "Category": "Trial of the Grand Crusader 10",
+        "Location": "Heroic Trial 10man",
+        "Boss": "Faction Champions",
+        "ilvl": 245,
         "Flat Stats": {
             "WE": 83
         },
@@ -336,6 +436,10 @@
     },
     {
         "Name": "Death's Verdict",
+        "Category": "Trial of the Crusader 25",
+        "Location": "Trial 25man",
+        "Boss": "Twin Valkyrs",
+        "ilvl": 245,
         "Flat Stats": {
             "AP": 256
         },
@@ -352,6 +456,10 @@
     },
     {
         "Name": "Whispering Fanged Skull",
+        "Category": "Icecrown Citadel 10",
+        "Location": "ICC 10man",
+        "Boss": "Lady Deathwhisper",
+        "ilvl": 251,
         "Flat Stats": {
             "Crit": 131
         },
@@ -366,6 +474,10 @@
     },
     {
         "Name": "Death's Verdict (Heroic)",
+        "Category": "Trial of the Grand Crusader 25",
+        "Location": "Heroic Trial 25man",
+        "Boss": "Twin Valkyrs",
+        "ilvl": 258,
         "Flat Stats": {
             "AP": 288
         },
@@ -382,6 +494,10 @@
     },
     {
         "Name": "Whispering Fanged Skull (Heroic)",
+        "Category": "Icecrown Citadel 10",
+        "Location": "Heroic ICC 10man",
+        "Boss": "Lady Deathwhisper",
+        "ilvl": 264,
         "Flat Stats": {
             "Crit": 148
         },
@@ -395,7 +511,30 @@
         }
     },
     {
+        "Name": "Herkuml War Token",
+        "Category": "Vendor / Badge",
+        "Location": "Vendor",
+        "Boss": "60 EoF",
+        "ilvl": 264,
+        "Flat Stats": {
+            "Haste": 153
+        },
+        "On Hit": {
+            "Type": "Stacks",
+            "Stacks": {
+                "N": 20,
+                "Stats": {
+                    "AP": 17
+                }
+            }
+        }
+    },
+    {
         "Name": "Deathbringer's Will",
+        "Category": "Icecrown Citadel 25",
+        "Location": "ICC 25man",
+        "Boss": "Deathbringer Saurfang",
+        "ilvl": 264,
         "Flat Stats": {
             "Arpen": 155
         },
@@ -444,6 +583,10 @@
     },
     {
         "Name": "Deathbringer's Will (Heroic)",
+        "Category": "Icecrown Citadel 25",
+        "Location": "Heroic ICC 25man",
+        "Boss": "Deathbringer Saurfang",
+        "ilvl": 277,
         "Flat Stats": {
             "Arpen": 167
         },
@@ -492,8 +635,22 @@
     },
     {
         "Name": "Tiny Abomination in a Jar",
+        "Category": "Icecrown Citadel 25",
+        "Location": "ICC 25man",
+        "Boss": "Professor Putricide",
+        "ilvl": 264,
         "Flat Stats": {
             "Hit": 0
         }
     },
+    {
+        "Name": "Tiny Abomination in a Jar (Heroic)",
+        "Category": "Icecrown Citadel 25",
+        "Location": "Heroic ICC 25man",
+        "Boss": "Professor Putricide",
+        "ilvl": 277,
+        "Flat Stats": {
+            "Hit": 0
+        }
+    }
 ]

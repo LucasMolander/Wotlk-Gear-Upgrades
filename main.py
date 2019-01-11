@@ -22,29 +22,51 @@ class Globals(object):
         paths = {
             'allGear':     'AllGear.json',
             'currentGear': 'CurrentGear.json',
+            'trinkets':    'Trinkets.json'
         }
 
-        self.currentGear = FileUtil.getJSONContents(paths['currentGear'])
-        self.statDPS     = FileUtil.getJSONContents(sdPath)
+        self.statDPS = FileUtil.getJSONContents(sdPath)
 
-        allGearList  = FileUtil.getJSONContents(paths['allGear'])
-        self.allGear = DataUtil.toMap(allGearList, 'Name')
+        allGearList = FileUtil.getJSONContents(paths['allGear'])
+        allTrinkets = FileUtil.getJSONContents(paths['trinkets'])
 
-        self.totalStats = CalcUtil.getTotalStats(self.allGear, list(self.statDPS.keys()))
-        pprint(self.totalStats)
-        exit()
+        # They don't exlicitly say that they're trinkets
+        for trink in allTrinkets:
+            trink['Slot'] = 'Trinket'
+
+        # Combine all gear into one list
+        self.allGear = []
+        self.allGear.extend(allGearList)
+        self.allGear.extend(allTrinkets)
+
+        # Then turn that list into a map from name to the piece of gear
+        self.allGear = DataUtil.toMap(self.allGear, 'Name')
+
+        # Load the current gear into memory
+        currentGearNames = FileUtil.getJSONContents(paths['currentGear'])
+        self.currentGear = DataUtil.statifyNamedGear(currentGearNames, self.allGear)
+
+        # Calculate each piece's DPS
+        for name in self.currentGear:
+            piece = self.currentGear[name]
+            piece['DPS'] = CalcUtil.calcDPS(piece, self.statDPS)
+
+        # Get some basic overall stats about the current gear
+        self.totalStats = CalcUtil.getTotalStats(self.currentGear, Globals.allStats)
 
 
 def calculateDiffs(globs):
     # Assign stats to the current gear and print it out
-    currentGear = DataUtil.statifyCurrentGear(globs.currentGear, globs.allGear)
+    currentGear = copy.deepcopy(globs.currentGear)
 
     # Print current gear
-    items     = [currentGear[slot] for slot in sorted(list(currentGear.keys()))]
-    headers   = ['Slot', 'Name', 'ilvl', 'Location', 'Boss']
+    items   = [currentGear[slot] for slot in sorted(list(currentGear.keys()))]
+    headers = ['Slot', 'Name', 'ilvl', 'Location', 'Boss', 'DPS']
 
     print('\nCurrent gear:\n')
     print(DataUtil.getTabulated(items, headers))
+
+    exit()
 
     # Print stat DPS
     print('\n\n\nStat DPS:\n')
@@ -58,11 +80,6 @@ def calculateDiffs(globs):
     # Return a new object
     # Because mutation is wonky
     out = {}
-
-    # For each current slot
-
-    # print(list(currentGear.keys()))
-    # exit(0)
 
     for slot in currentGear:
         out[slot] = {}
