@@ -1,0 +1,550 @@
+
+Current gear (Combat Rogue):
+
+Slot      Name                                 ilvl  Location           Boss                        DPS
+--------  ---------------------------------  ------  -----------------  ---------------------  --------
+Back      Shawl of Nerubian Silk                251  ICC 10man          Lord Marrowgar          481.155
+Belt      Vengeful Noose                        264  Vendor             60 EoF                  734.899
+Bracer    Bracers of Swift Death                245  Craftable                                  439.752
+Chest     Ikfirus's Sack of Wonder (Heroic)     277  Heroic ICC 25man   Gunship                1073.16
+Feet      Taldaram's Soft Slipper               251  ICC 10man          Blood Princes           636.061
+Gloves    Scourge Stranglers                    251  ICC 10man          Deathbringer Saurfang   646.209
+Head      Geistlord's Punishment Sack           264  ICC 25man          Blood Princes           886.639
+Legs      Gangrenous Leggings                   264  ICC 25man          Festergut               915.633
+Neck      Wodin's Lucky Necklace                264  ICC 25man          Trash                   499.366
+Ring      Ashen Band of Endless Vengeance       277  Ashen Verdict Rep  Ashen Verdict Rep       617.33
+Ring      Seal of the Twilight Queen            251  ICC 10man          Queen Lanathel          462.06
+Shoulder  Cultist's Bloodsoaked Spaulders       264  ICC 25man          Lady Deathwhisper       648.778
+Trinket   Whispering Fanged Skull               251  ICC 10man          Lady Deathwhisper       551.118
+Trinket   Herkuml War Token                     264  Vendor             60 EoF                  600.675
+
+
+
+Stat DPS:
+
+WE:	2.0030
+Hit:	1.7086
+Agi:	1.9157
+Arpen:	1.9157
+AP:	0.9919
+Haste:	1.7770
+Str:	1.0910
+Crit:	1.7084
+
+
+
+
+ALL GEAR
+--------
+
+
+
+BACK
+
+    DPS  Name                                       ilvl  Location                   Boss
+-------  ---------------------------------------  ------  -------------------------  ----------------------
+577.763  Shadowvault Slayer's Cloak (Heroic)         277  Heroic ICC 25man           Gunship
+559.137  Vereesa's Dexterity                         272  Heroic Trial 25man         Perfect Tribute
+541.17   Shawl of Nerubian Silk (Heroic)             264  Heroic ICC 10man           Lord Marrowgar
+512.014  Shadowvault Slayer's Cloak                  264  ICC 25man                  Gunship
+509.875  Drape of the Violet Tower                   264  Vendor                     50 EoF
+491.286  Cloak of the Silver Covenant                258  Heroic Trial 10man         Perfect Tribute
+481.155  Shawl of Nerubian Silk                      251  ICC 10man                  Lord Marrowgar
+429.242  Drape of the Faceless General               226  Uld 10man                  General Vezax (Hard)
+420.04   Drape of the Untamed Predator               245  Trial 25man                Northrend Beasts
+404.972  Drape of Icy Intent                         239  Uld 25man                  Hodir (Hard)
+380.624  Winding Sheet (Heroic)                      277  Heroic ICC 25man           Rotface
+360.814  Varian's Furor                              272  Heroic Trial 25man         Perfect Tribute
+347.254  Drape of the Lithe                          226  Uld 25man                  Iron Council
+344.232  Drape of the Deadly Foe                     223  Naxx 25man                 Kel'thuzad
+338.266  Accursed Crawling Cape                      219  The Forge of Souls         Devourer of Souls
+338.557  Winding Sheet                               264  ICC 25man                  Rotface
+331.18   Saronite Gargoyle Cloak (Heroic)            264  Heroic ICC 10man           Gunship
+331.187  Winter's Frigid Embrace                     219  Uld 10man                  Hodir
+330.087  Shawl of the Shattered Giant                219  Uld 10man                  Kologarn
+318.204  Cloak of the Victorious Combatant           258  Heroic Trial 10man         Perfect Tribute
+309.003  Aged Winter Cloak                           213  Naxx 25man                 Heigan
+295.053  Hammerhead Sharkskin Cloak                  213  Vendor                     25 25man Badges
+293.621  Saronite Gargoyle Cloak                     251  ICC 10man                  Gunship
+270.145  Cloak of Mastery                            200  Naxx 10man                 Sapphiron
+268.242  Cloak of Darkening                          200  Naxx 10man                 Gluth
+261.262  Strength of the Nerub                       245  Trial 25man                Anub'arak
+253.34   Drape of the Skyborn                        239  Quest                      Algalon 25
+235.192  Relentless Gladiator's Cloak of Triumph     245  PVP
+235.199  Relentless Gladiator's Cloak of Victory     245  PVP
+230.678  Might of the Ocean Serpent                  264  Vendor                     50 EoF
+226.108  Drape of the Drakerider                     226  Uld 25man                  Razorscale
+226.436  Drape of the Skyherald                      226  Quest                      Algalon 10
+212.687  Ice Striker's Cloak                         200  Craftable
+207.184  Drape of Fuming Anger                       219  Uld 10man                  Ignis
+205.451  Stylish Power Cape                          219  Uld 10man                  Mimiron
+205.745  Tapestry of the Frozen Throne               219  Halls of Reflection        End Chest
+199.764  Centrifuge Core Cloak                       187  The Occulus                Varos Cloudstrider
+196.734  Furious Gladiator's Cloak of Victory        226  PVP
+192.579  Shroud of Reverberation                     200  Heroic Halls of Lightning  Volkhan
+187.468  Cloak of the Gushing Wound                  200  Violet Hold                Erekem
+182.523  Embrace of Sorrow                           183  Halls of Stone             Maiden of Grief
+176.009  Deadly Gladiator's Cloak of Triumph         213  PVP
+176.014  Deadly Gladiator's Cloak of Victory         213  PVP
+173.448  Drape of the Undefeated                     200  Trial of the Champion      The Black Knight
+174.181  Cloak of Holy Extermination                 187  Vendor                     Argent Crusade
+157.272  Hateful Gladiator's Cloak of Triumph        200  PVP
+157.277  Hateful Gladiator's Cloak of Victory        200  PVP
+143.287  Cloak of the Deadliest Game                 162  Quest                      Post-partum Aggression
+123.549  Cloak of Bloodied Waters                    200  World Drop
+111.315  Venture Bay Buccaneer's Cape                150  Vendor                     Venture Coin
+100.636  Cloak of Harsh Winds                        159  Craftable
+
+
+
+BELT
+
+    DPS  Name                                     ilvl  Location               Boss
+-------  -------------------------------------  ------  ---------------------  --------------------
+784.931  Astrylian's Sutured Cinch (Heroic)        277  Heroic ICC 25man       Professor Putricide
+734.899  Vengeful Noose                            264  Vendor                 60 EoF
+699.931  Soulthief's Braided Belt (Heroic)         264  Heroic ICC 10man       Lady Deathwhisper
+698.201  Astrylian's Sutured Cinch                 264  ICC 25man              Professor Putricide
+652.871  Belt of the Merciless Killer (Heroic)     258  Heroic Trial 25man     Twin Valkyrs
+623.445  Soulthief's Braided Belt                  251  ICC 10man              Lady Deathwhisper
+571.922  Belt of the Merciless Killer              245  Trial 25man            Twin Valkyrs
+558.619  Soul-Devouring Cinch                      226  Uld10                  Yogg-Saron (Hard)
+481.798  Belt of the Twilight Assasin              226  Vendor                 23 EoC
+468.826  Flayer's Black Belt                       219  Pit of Saron           Garfrost
+417.472  Stalk-Skin Belt                           213  Naxx 25man             Heigan the Unclean
+409.202  Belt of the Tortured                      213  Naxx 25man             Patchwerk
+386.384  Jorach's Crocolisk Skin Belt              200  Vendor                 40 10man Badges
+376.117  Blistered Belt of Decay                   200  Naxx 10man             Grobbulus
+369.613  Belt of Fierce Compition                  200  Trial of the Champion  Champions
+343.259  Sharp-Barbed Leather Belt                 200  Heroic Utgarde Keep    Ingvar the Plunderer
+333.474  Trollwoven Girdle                         200  Craftable
+298.882  Batrider's Cord                           200  Heroic Drak'Tharon     Trollgore
+280.662  Treasure Seeker's Belt                    200  Heroic Azjol'Nerub     Zone Drop
+269.554  Ley-Whelphide Belt                        187  Heroic Occulus         Zone Drop
+246.762  Glitterscale Wrap                         187  Vendor                 Oracles
+223.234  Eviscerator's Waistguard                  187  Craftable
+
+
+
+BRACER
+
+    DPS  Name                                          ilvl  Location                   Boss
+-------  ------------------------------------------  ------  -------------------------  ------------------------
+587.198  Toskk's Maximized Wristguards (Heroic)         277  Heroic ICC 25man           Deathbringer Saurfang
+519.401  Vambraces of the Frost Wyrm Queen (Heroic)     264  Heroic ICC 10man           Sindragosa
+509.875  Toskk's Maximized Wristguards                  264  ICC 25man                  Deathbringer Saurfang
+490.486  Bracers of Dark Determination (Heroic)         258  Heroic Trial 25man         Anub'arak
+460.968  Vambraces of the Frost Wyrm Queen              251  ICC 10man                  Sindragosa
+439.752  Bracers of Swift Death                         245  Craftable
+427.338  Solar Bindings                                 239  Uld 25man                  Algalon
+416.621  Bracers of Dark Determination                  245  Trial 25man                Anub'arak
+386.659  Chewed Leather Wristguards                     232  Heroic Pit of Saron        Ick
+368.168  Fluxing Energy Coils                           226  Uld 10man                  XT-002 (Hard)
+348.82   Mechanist's Bindings                           226  Uld 25man                  Leviathan
+328.385  Armbands of the Wary Lookout                   213  Trial of the Champion      Heroic
+320.282  Thrusting Bands                                213  Naxx 25man                 Noth the Plaguebringer
+320.708  Sinner's Bindings                              213  Naxx 25man                 Maexxna
+318.042  Wristwraps of the Cutthroat                    213  Vendor                     60 25man Badges
+274.545  Cuffs of Dark Shadows                          200  Naxx 10man                 Heigan the Unclean
+257.975  Dragonfriend Bracers                           200  Vendor                     Wyrmrest
+255.222  Advanced Tooled-Leather Bands                  200  Heroic Halls of Lightning  Loken
+217.223  Drake-Champion's Bracers                       200  Occulus                    Zone Drop
+196.221  King's Square Bracers                          187  CoT: Stratholme            Zone Drop
+192.777  Bindings of the Tunneler                       200  Heroic Utgarde Keep        Skarvald the Constructor
+168.724  Eviscerator's Bindings                         187  Craftable
+
+
+
+CHEST
+
+     DPS  Name                                           ilvl  Location                    Boss
+--------  -------------------------------------------  ------  --------------------------  -------------------------
+1073.16   Ikfirus's Sack of Wonder (Heroic)               277  Heroic ICC 25man            Gunship
+1052.34   Sanctified Shadowblade Breastplate (Heroic)     269  Vendor                      Mark
+1005.07   Chestguard of the Frigid Noose (Heroic)         264  Heroic ICC 10man            Lady Deathwhisper
+ 954.294  Shadow Seeker's Tunic                           264  Vendor                      95 EoF
+ 953.194  Ikfirus's Sack of Wonder                        264  ICC 25man                   Gunship
+ 933.6    Sanctified Shadowblade Breastplate              269  Vendor                      Mark
+ 898.502  Chestguard of the Frigid Noose                  251  ICC 10man                   Lady Deathwhisper
+ 881.225  Cuirass of Calamitous Fate (Heroic)             258  Heroic Trial 25man          Jaraxxus
+ 830.831  Shadowblade Breastplate                         269  Vendor                      95 EoF
+ 809.295  Armor of Shifting Shadows (Heroic)              245  Heroic Trial 10man          Twin Valkyrs
+ 795.949  Knightbane Carapace                             245  Craftable
+ 771.356  Cuirass of Calamitous Fate                      245  Trial 25man                 Jaraxxus
+ 744.05   Embrace of the Gladiator                        239  Uld 25man                   Thorim (Hard)
+ 696.46   Choking Hauberk                                 232  Heroic Halls of Reflection  Marwyn
+ 696.322  Armor of Shifting Shadows                       232  Trial 10man                 Twin Valkyrs
+ 694.63   Tunic of the Limber Stalker                     219  Uld 10man                   Freya
+ 677.735  Chestguard of the Recluse                       226  EoE 25man                   Alexstrasza's Gift
+ 670.056  Winter's Icy Embrace                            226  Uld 10man                   Hodir
+ 614.288  Blackened Geist Ribs                            219  Halls of Reflection         End Chest
+ 571.942  Tunic of Indulgence                             213  Naxx 25man                  Grobbulus
+ 526.973  Chestpiece of Suspicion                         213  Naxx 25man                  Instructor Razuvious
+ 522.24   Tunic of Dislocation                            200  Naxx 10man                  Gothik the Harvester
+ 520.66   Blade-Scarred Tunic                             200  OS 10man                    Sartharion
+ 483.417  Custodian's Chestpiece                          200  Heroic Azjol-Nerub          Krik'thir the Gatewatcher
+ 477.383  Darkheart Chestguard                            200  Vendor                      Knights of the Ebon Blade
+ 405.545  Crystal-Infused Tunic                           200  Heroic Nexus                Keristrasza
+ 355.081  Drake Rider's Tunic                             187  Utgarde Pinnacle            Skadi the Ruthless
+ 308.861  Exotic Leather Tunic                            187  Quest                       Junk in My Trunk
+ 302.022  Eviscerator's Chestguard                        187  Craftable
+
+
+
+FEET
+
+    DPS  Name                                ilvl  Location                    Boss
+-------  --------------------------------  ------  --------------------------  ----------------------
+784.931  Frostbitten Fur Boots (Heroic)       277  Heroic ICC 25man            Lord Marrowgar
+712.428  Taldaram's Soft Slipper (Heroic)     264  Heroic ICC 10man            Blood Princes
+702.698  Footpads of Impending Death          264  Craftable
+688.852  Frostbitten Fur Boots                264  ICC 25man                   Lord Marrowgar
+661.758  Treads of the Icewalker (Heroic)     258  Trial 25man                 Faction Champions
+636.061  Taldaram's Soft Slipper              251  ICC 10man                   Blood Princes
+604.169  Acidmaw Boots (Heroic)               245  Heroic Trial 10man          Northrend Beasts
+594.887  Treads of the Icewalker              245  Trial 25man                 Faction Champions
+523.656  Acidmaw Boots                        232  Trial 10man                 Northrend Beasts
+518.334  Blighted Leather Footpads            232  Heroic Halls of Reflection  End Chest
+502.939  Footpads of Silence                  226  Craftable
+490.746  Runed Ironhide Boots                 226  Uld 25man                   Iron Council
+479.355  Flamestalker Boots                   226  Uld 25man                   Ignis
+476.848  Treads of Dismal Fortune             219  Trial of the Champion       Heroic
+437.996  Treads of the Invader                219  Uld 10man                   Razorscale
+426.6    Footwraps of Vile Deceit             213  Naxx 25man                  Loatheb
+425.389  Dawnwalkers                          213  Naxx 25man                  Anub'rekhan
+390.855  Boots of Captain Ellis               213  Vendor                      40 25man Badges
+377.2    Boots of the Worshiper               200  Naxx 10man                  Grand Widow Faerlina
+331.473  Boots of the Neverending Path        200  Vendor                      Argent Crusade
+291.251  Gorloc Muddy Footwraps               200  Heroic Gundrak              Eck the Ferocious
+291.092  Boots of the Whirling Mist           200  Heroic Halls of Stone       Sjonnir the Ironshaper
+236.898  Jormscale Footpads                   187  Craftable
+213.315  Eviscerator's Treads                 187  Craftable
+206.313  Slag Footguards                      200  Heroic Halls of Lightning   Volkhan
+
+
+
+GLOVES
+
+    DPS  Name                                         ilvl  Location                 Boss
+-------  -----------------------------------------  ------  -----------------------  --------------------------
+792.773  Aldriana's Gloves of Secrecy (Heroic)         277  Heroic ICC 25man         Rotface
+763.661  Sanctified Shadowblade Gauntlets (Heroic)     269  Vendor                   Mark
+724.559  Scourge Stranglers (Heroic)                   264  Heroic ICC 10man         Deathbringer Saurfang
+705.358  Aldriana's Gloves of Secrecy                  264  ICC 25man                Rotface
+688.308  Cat Burglar's Grips                           264  Vendor                   60 EoF
+678.319  Sanctified Shadowblade Gauntlets              269  Vendor                   Mark
+646.209  Scourge Stranglers                            251  ICC 10man                Deathbringer Saurfang
+630.714  Gloves of the Silver Assassin (Heroic)        245  Heroic Trial 10man       Faction Champions
+603.201  Shadowblade Gauntlets                         269  Vendor                   60 EoF
+536.406  Gloves of the Silver Assassin                 232  Trial 10man              Faction Champions
+522.501  Gloves of the Endless Dark                    226  Uld 10man                Algalon
+488.197  Gloves of the Stonereaper                     226  Uld 25man                Auriaya
+472.665  Frosted Adroit Handguards                     226  EoE 25man                Alexstrasza's Gift
+466.857  Gloves of the Blind Stalker                   226  Vendor                   23 EoC
+456.073  Carpal Tunnelers                              219  Halls of Reflection      Marwyn
+445.932  Gloves of Smoldering Touch                    219  Uld 10man                Ignis
+415.683  Dislocating Handguards                        213  Naxx 25man               Grand Widow Faelina
+389.456  Rapid Attack Gloves                           200  Naxx 10man               Instructor Razuvious
+387.532  Gloves of Fast Reactions                      213  Naxx 25man               Sapphiron
+380.855  Gloves of the Argent Fanatic                  200  Trial of the Champion    Eadric/Confessor Paletress
+335.644  Gilt-Edged Leather Gauntlets                  200  Heroic Utgarde Pinnacle  King Ymiron
+309.572  Handwraps of Preserved History                187  Quest                    A Royal Escort
+259.286  Sidestepping Handguards                       187  Occulus                  Mage-Lord Urom
+254.085  Seafoam Gauntlets                             187  Craftable
+251.893  Bile-Cured Gloves                             200  Heroic COH: Stratholme   Meathook
+223.234  Eviscerator's Gauntlets                       187  Craftable
+
+
+
+HEAD
+
+     DPS  Name                                      ilvl  Location                   Boss
+--------  --------------------------------------  ------  -------------------------  -----------------------
+1022.8    Sanctified Shadowblade Helmet (Heroic)     269  Vendor                     Mark
+1002.48   Geistlord's Punishment Sack (Heroic)       277  Heroic ICC 25man           Blood Princes
+ 958.194  Discarded Bag of Entrails (Heroic)         264  Heroic ICC 10man           Professor Putricide
+ 904.063  Sanctified Shadowblade Helmet              269  Vendor                     Mark
+ 886.639  Geistlord's Punishment Sack                264  ICC 25man                  Blood Princes
+ 851.628  Discarded Bag of Entrails                  251  ICC 10man                  Professor Putricide
+ 801.294  Shadowblade Helmet                         269  Vendor                     95 EoF
+ 755.405  Hood of Lethal Intent                      245  Badge                      Badge of Triumph
+ 685.095  Frayed Scoundrel's Cap                     232  Heroic The Forge of Souls  Devourer of Souls
+ 672.047  VanCleef's Helmet of Conquest              232  Vendor                     Triumph
+ 649.904  Garona's Guise                             226  Uld 25man                  Yogg-Saron
+ 648.272  Mimiron's Flight Goggles                   226  Uld 10man                  Mimiron (Hard)
+ 626.96   Guise of the Midgard Serpent               219  Uld 10man                  Thorim
+ 622.145  Mask of Distant Memory                     219  Trial of the Champion      Heroic
+ 532.779  Hood of the Exodus                         213  Naxx 25man                 Gothik the Harvester
+ 528.376  Cover of Silence                           213  Naxx 25man                 Thaddius
+ 499.547  Helm of the Vast Legions                   200  Naxx 10man                 Sapphiron
+ 412.009  Mask of the Watcher                        200  Heroic Occulus             Cache of Eregos
+ 401.887  Helm of Cheated Fate                       200  Gundrak                    Drakkari Elemental
+ 367.256  Hood of the Furtive Assassin               187  Halls of Lightning         Loken
+ 337.397  Headguard of Retaliation                   187  Quest                      Vengeance Be Mine!
+ 314.675  Shroud of Darkness                         200  Heroic Violet Hold         Zuramat the Obliterator
+ 302.022  Eviscerator's Facemask                     187  Craftable
+
+
+
+LEGS
+
+     DPS  Name                                         ilvl  Location                 Boss
+--------  -----------------------------------------  ------  -----------------------  --------------------
+1061.59   Sanctified Shadowblade Legplates (Heroic)     269  Vendor                   Mark
+ 984.463  Gangrenous Leggings (Heroic)                  277  Heroic ICC 25man         Festergut
+ 948.67   Ivory-Inlaid Leggings (Heroic)                264  Heroic ICC 10man         Queen Lanathel
+ 945.721  Bladeborn Leggings                            264  Craftable
+ 941.629  Sanctified Shadowblade Legplates              269  Vendor                   Mark
+ 932.395  Plague-Soaked Leather Leggings (Heroic)       264  Heroic ICC 10man         Festergut
+ 915.633  Gangrenous Leggings                           264  ICC 25man                Festergut
+ 881.237  Leggings of the Broken Beast (Heroic)         258  Heroic Trial 25man       Northrend Beasts
+ 845.117  Ivory-Inlaid Leggings                         251  ICC 10man                Queen Lanathel
+ 837.813  Shadowblade Legplates                         269  Vendor                   95 EoF
+ 820.828  Plague-Soaked Leather Leggings                251  ICC 10man                Festergut
+ 744.031  Leggings of the Broken Beast                  245  Trial 25man              Northrend Beasts
+ 745.014  Legguards of Cunning Deception                239  Uld 25man                Yogg-Saron (Hard)
+ 690.225  Fleshwerk Leggings                            232  Heroic Pit of Saron      Scourgelord Tyrannus
+ 652.086  Leggings of Wavering Shadows                  226  Vendor                   32 EoC
+ 649.038  Proto-hide Leggings                           226  Uld 25man                Razorscale
+ 648.265  Leggings of the Honored                       226  OS 25man                 Sartharion
+ 611.14   Shaggy Wyrmleather Leggings                   219  Pit of Saron             Scourgelord Tyrannus
+ 589.341  Leggings of Swift Reflexes                    219  Uld 10man                Iron Council
+ 557.735  Infectious Skitterer Leggings                 213  Naxx 25man               Maexxna
+ 551.777  Leggings of Fleeting Moments                  213  Naxx 25man               Gothik the Harvester
+ 535.642  Leggings of Brazen Trespass                   200  Trial of the Champion    Eadric the Pure
+ 519.718  Leggings of Discord                           200  Naxx 10man               Maexxna
+ 437.877  Gored Hide Legguards                          200  Heroic Gundrak           Gal'darah
+ 422.713  Mind-Expanding Leggings                       200  Vendor                   Kirin Tor
+ 410.602  Ravenous Leggings of the Furbolg              200  Heroic Utgarde Pinnacle  Gortok Palehoof
+ 347.542  Leggings of Visceral Strikes                  187  Craftable
+ 336.979  Chain Gang Legguards                          200  Heroic Violet Hold       Zone Drop
+ 317.479  Legguards of Swarming Attacks                 200  Heroic Ahn'kahet         Amanitar
+ 302.022  Eviscerator's Legguards                       187  Craftable
+
+
+
+NECK
+
+    DPS  Name                                          ilvl  Location                 Boss
+-------  ------------------------------------------  ------  -----------------------  --------------------
+591.309  Sindragosa's Cruel Claw (Heroic)               277  Heroic ICC 25man         Sindragosa
+528.273  Rimetooth Pendant (Heroic)                     264  Heroic ICC 10man         Sindragosa
+523.901  Sindragosa's Cruel Claw                        264  ICC 25man                Sindragosa
+522.998  Precious's Putrid Collar (Heroic)              264  Heroic ICC 10man         Festergut
+499.366  Wodin's Lucky Necklace                         264  ICC 25man                Trash
+477.773  Charge of the Demon Lord (Heroic)              258  Heroic Trial 25man       Jaraxxus
+468.869  Rimetooth Pendant                              251  ICC 10man                Sindragosa
+466.342  Precious's Putrid Collar                       251  ICC 10man                Festergut
+444.702  Collar of Ceaseless Torment (Heroic)           245  Heroic Trial 10man       Faction Champions
+416.212  Charge of the Demon Lord                       245  Trial 25man              Jaraxxus
+411.661  Sparkling Onyxia Tooth Pendant                 245  Ony 10 or 25             Onyxia's Head Quest
+401.833  Lana'thel's Chain of Flagellation (Heroic)     277  Heroic ICC 25man         Queen Lanathel
+402.765  Pendulum of Infinity                           239  Uld 25man                General Vezax (Hard)
+383.609  Collar of Ceaseless Torment                    232  Trial 10man              Faction Champions
+378.468  Barbed Ymirheim Choker                         232  Heroic Pit of Saron      Garfrost
+376.521  Ahn'kahar Onyx Neckguard (Heroic)              277  Heroic ICC 25man         Lady Deathwhisper
+367.916  Seed of Budding Carnage                        226  Uld 10man                Freya (Hard)
+358.996  Favor of the Dragon Queen                      226  Quest                    Judge at the EoE 25
+358.303  Lana'thel's Chain of Flagellation              264  ICC 25man                Queen Lanathel
+353.631  Broach of the Wailing Night                    226  Vendor                   16 EoC
+348.081  Nymph Heart Charm                              226  Uld 10man                Iron Council (Hard)
+347.718  Infected Choker (Heroic)                       264  Heroic ICC 10man         Professor Putricide
+343.729  Ahn'kahar Onyx Neckguard                       264  ICC 25man                Lady Deathwhisper
+336.879  Ancient Pendant of Arathor                     219  Trial of the Champion    Heroic
+336.643  Collar of Haughty Disdain (Heroic)             264  Heroic ICC 10man         Queen Lanathel
+323.499  Choker of the Abyss                            219  Uld 10man                General Vezax
+321.45   Pendant of the Dragonsworn                     213  Quest                    Judgement at the EoE
+318.204  The Executioner's Malice (Heroic)              258  Heroic Trial 25man       Twin Valkyrs
+312.857  Icy Blast Amulet                               213  Naxx 25man               Sapphiron
+309.961  Gem of Imprisoned Vassals                      213  Naxx 10man               Kel'Thuzad
+310.648  Infected Choker                                251  ICC 10man                Professor Putricide
+305.187  Fool's Trial                                   213  Naxx 25man               Grand Widow Faerlina
+300.93   Collar of Haughty Disdain                      251  ICC 10man                Queen Lanathel
+285.269  Collar of Dissolution                          200  Naxx 10man               Anub'Rekhan
+266.993  Titanium Impact Choker                         200  Craftable
+264.68   The Executioner's Malice                       245  Trial 25man              Twin Valkyrs
+258.467  Frigid Strength of Hodir                       239  Uld 25man                Hodir (Hard)
+250.313  Pendant of the Outcast Hero                    200  Vendor                   25 10man Badges
+247.734  Strength of the Heavens                        226  Uld 10man                Algalon
+235.199  Relentless Gladiator's Pendant of Victory      245  PVP
+235.192  Relentless Gladiator's Pendant of Triumph      245  PVP
+221.114  Insurmountable Fervor                          226  Uld 25man                Iron Council
+214.657  Might of the Leviathan                         219  Uld 10man                Flame Leviathan
+213.925  Necklace of the Chrono-Lord                    187  CoT: Stratholme          Chrono-Lord Epoch
+212.609  Necklace of Arcane Spheres                     200  Violet Hold              Xevozz
+208.541  Painfully Sharp Choker                         219  Pit of Saron             Scourgelord Tyrannus
+209.307  Spiked Battleguard Choker                      226  Vendor                   16 EoC
+196.734  Furious Gladiator's Pendant of Triumph         226  PVP
+191.165  Amulet of the Stampede                         179  Gun'drak                 Gal'darah
+176.014  Deadly Gladiator's Pendant of Victory          213  PVP
+176.009  Deadly Gladiator's Pendant of Triumph          213  PVP
+157.277  Hateful Gladiator's Pendant of Victory         200  PVP
+157.272  Hateful Gladiator's Pendant of Triumph         200  PVP
+146.74   Choker of the Betrayer                         171  Quest                    Betrayal
+145.804  Spiked Collar of Servitude                     162  Quest                    A Hero's Burden
+143.227  Draconic Choker of Ferocity                    166  World Drop
+135.939  Jade Dagger Pendant                            167  Craftable
+124.742  Gold Amulet of Kings                           200  Heroic Utgarde Pinnacle  King Ymiron
+
+
+
+RING
+
+     DPS  Name                                       ilvl  Location                    Boss
+--------  ---------------------------------------  ------  --------------------------  -----------------------
+617.33    Ashen Band of Endless Vengeance             277  Ashen Verdict Rep           Ashen Verdict Rep
+590.776   Seal of Many Mouths (Heroic)                277  Heroic ICC 25man            Rotface
+587.198   Frostbrood Sapphire Ring (Heroic)           277  Heroic ICC 25man            Valithria Dreamwalker
+575.858   Band of the Bone Colossus (Heroic)          277  Heroic ICC 25man            Lord Marrowgar
+558.594   Ashen Band of Unmatched Vengeance           268  Ashen Verdict Rep           Ashen Verdict Rep
+555.112   Seal of Many Mouths                         264  ICC 25man                   Rotface
+532.38    Saurfang's Cold-Forged Band (Heroic)        264  Heroic ICC 10man            Deathbringer Saurfang
+520.493   Seal of the Twilight Queen (Heroic)         264  Heroic ICC 10man            Queen Lanathel
+520.338   Frostbrood Sapphire Ring                    264  ICC 25man                   Valithria Dreamwalker
+510.107   Band of the Bone Colossus                   264  ICC 25man                   Lord Marrowgar
+481.518   Ashen Band of Greater Vengeance             259  Ashen Verdict Rep           Ashen Verdict Rep
+477.773   Ring of Callous Aggression (Heroic)         258  Heroic Trial 25man          Faction Champions
+472.497   Saurfang's Cold-Forged Band                 251  ICC 10man                   Deathbringer Saurfang
+462.06    Seal of the Twilight Queen                  251  ICC 10man                   Queen Lanathel
+447.429   Ashen Band of Vengeance                     251  Ashen Verdict Rep           Ashen Verdict Rep
+447.63    Planestalker Signet (Heroic)                245  Heroic Trial 10man          Faction Champions
+422.862   Ashen Band of Endless Might                 277  Ashen Verdict Rep           Ashen Verdict Rep
+416.212   Ring of Callous Aggression                  245  Trial 25man                 Faction Champions
+397.665   Planestalker Signet                         232  Trial 10man                 Faction Champions
+394.504   Brann's Signet Ring                         239  Quest                       Algalon 25
+394.185   Skeleton Lord's Circle (Heroic)             277  Heroic ICC 25man            Gunship
+384.378   Band of Lights                              226  Uld 10man                   Algalon
+371.014   Band of Stained Souls                       232  Heroic Pit of Saron         Scourgelord Tyrannus
+369.812   Loop of the Agile                           226  Uld 10man                   Iron Council (Hard)
+365.303   Brann's Sealing Ring                        226  Quest                       Algalon 10
+363.887   Cindershard Ring                            226  Uld 25man                   Ignis
+361.266   Rotface's Rupturing Ring (Heroic)           264  Heroic ICC 10man            Rotface
+356.957   Godbane Signet                              226  Uld 25man                   Yogg-Saron
+350.31    Skeleton Lord's Circle                      264  ICC 25man                   Gunship
+347.457   Metallic Loop of the Sufferer               226  Uld 25man                   General Vezax
+345.771   Might of Blight                             264  ICC 25man                   Festergut
+345.771   Might of Blight (Heroic)                    264  Heroic ICC 25man            Festergut
+339.105   Thrice Fanged Signet (Heroic)               264  Heroic ICC 10man            Blood Princes
+327.025   Band of Draconic Guile                      219  Uld 10man                   Razorscale
+326.457   Ring of Rotting Sinew                       264  ICC 25man                   Trash
+321.555   Band of the Violent Temperment (Heroic)     258  Heroic Trial 25man          Northrend Beasts
+321.655   Rotface's Rupturing Ring                    251  ICC 10man                   Rotface
+317.769   Surge Needle Ring                           213  EoE 10man                   Malygos
+310.659   Carnivorous Band (Heroic)                   245  Heroic Trial 10man          Northrend Beasts
+309.307   Strong-Handed Ring                          213  Naxx 25man                  Noth/Razuvious
+304.88    Greatring of Collision                      213  OS 10man                    Sartharion (2 Drakes)
+305.715   Ring of Invincibility                       213  Vendor                      25 25man Badges
+301.692   Ashen Band of Greater Might                 259  Ashen Verdict Rep           Ashen Verdict Rep
+301.692   Ashen Band of Unmatched Might               268  Ashen Verdict Rep           Ashen Verdict Rep
+301.615   Thrice Fanged Signet                        251  ICC 10man                   Blood Princes
+290.333   Uruka's Band of Zeal                        200  Trial of the Champion       The Black Knight
+280.386   Ashen Band of Might                         251  Ashen Verdict Rep           Ashen Verdict Rep
+275.576   Band of the Kirin Tor                       200  Vendor
+275.718   Sealing Ring of Grobbulus                   200  Naxx 10man                  Grobbulus
+271.085   Seal of the Betrayed King                   239  Uld 25man                   Yogg-Saron (Hard)
+268.099   Band of the Violent Temperment              245  Trial 25man                 Northrend Beasts
+268.656   Titanium Impact Band                        200  Craftable
+260.814   Carnivorous Band                            232  Trial 10man                 Northrend Beasts
+261.262   Bloodshed Band                              245  Badge                       Badge of Triumph
+259.153   Hemorrhaging Circle                         200  Gun'Drak                    Gal'darah
+243.335   The Lady's Promise                          232  Heroic Halls of Reflection  End Chest
+235.199   Relentless Gladiator's Band of Victory      245  PVP
+234.434   Sif's Promise                               226  Uld 25man                   Thorim
+229.256   Bladebearer's Signet                        226  Uld 25man                   Trash
+226.108   Strength of the Automaton                   226  Uld 25man                   Flame Leviathan
+223.239   Crazed Construct Ring                       226  Uld 25man                   XT-002
+219.18    Stained-Glass Shard Ring                    200  Old Kingdom                 Trash Drop
+218.54    Ruthlessness                                213  Naxx 25man                  Grand Widow Faerlina
+217.399   Ring of Scarlet Shadows                     187  Craftable
+210.871   Darkstone Ring                              219  Uld 10man                   General Vezax
+210.389   Mobius Band                                 200  Heroic CoT: Stratholme      Chron-Lord Epoch
+208.139   Purloined Wedding Ring                      219  Pit of Saron                Ick
+205.929   Power Enhancing Loop                        219  Uld 10man                   XT-002
+204.364   Circle of Death                             200  Naxx 10man                  Sapphiron
+202.929   Signet of Edward the Odd                    200  World Drop
+198.139   Bjarngrim Family Signet                     187  Halls of Lightning          General Bjarngrim
+196.728   Furious Gladiator's Band of Triumph         226  PVP                         Season 6
+187.936   The 5 Ring                                  206  Fishing
+176.014   Deadly Gladiator's Band of Victory          213  PVP
+174.731   Ring of the Kirin Tor                       200  Vendor
+166.191   Ring of Foul Mojo                           175  Quest                       For Posterity
+161.989   Windfire Band                               187  Craftable
+157.277   Hateful Gladiator's Band                    200  PVP
+148.268   Band of Motivation                          175  Quest                       The Struggle Persists
+132.917   Palladium Ring                              183  Halls of Stone              Dark Rune Giant
+128.118   Savage Titanium Ring                        187  Craftable
+120.851   Band of Frosted Thorns                      200  The Nexus                   Ormorok the Tree-Shaper
+ 94.5521  Titanium Earthguard Ring                    187  Craftable
+
+
+
+SHOULDER
+
+    DPS  Name                                         ilvl  Location                    Boss
+-------  -----------------------------------------  ------  --------------------------  ----------------------
+774.12   Cultist's Bloodsoaked Spaulders (Heroic)      277  Heroic ICC 25man            Lady Deathwhisper
+758.054  Sanctified Shadowblade Pauldrons (Heroic)     269  Vendor                      Mark
+723.338  Skinned Whelp Shoulders (Heroic)              264  Heroic ICC 10man            Valithria Dreamwalker
+673.395  Sanctified Shadowblade Pauldrons              269  Vendor                      Mark
+648.778  Cultist's Bloodsoaked Spaulders               264  ICC 25man                   Lady Deathwhisper
+644.988  Skinned Whelp Shoulders                       251  ICC 10man                   Valithria Dreamwalker
+598.893  Shadowblade Pauldrons                         269  Vendor                      60 EoF
+596.702  Spaulders of the Snow Bandit (Heroic)         245  Heroic Trial 10man          Anub'arak
+579.552  Duskstalker Shoulderpads                      245  Badge                       Badge of Triumph
+519.433  Spaulders of the Snow Bandit                  232  Trial 10man                 Anub'arak
+499.058  Spaulders of Black Betrayal                   232  Heroic Halls of Reflection  Falric
+465.426  Treacherous Shoulderpads                      219  Uld 10man                   XT-002
+447.775  Bewilidering Shoulderpads                     219  The Forge of Souls          Bronjahm
+426.737  Concealment Shoulderpads                      213  Naxx 25man                  Sartharion
+407.692  Spaulders of Egotism                          213  Naxx 25man                  Instructor Razuvious
+395.12   Shoulderpads of the Infamous Knave            200  Trial of the Champion       The Black Knight
+359.559  Spaulders of Resumed Battle                   200  Naxx 10man                  Noth the Plaguebringer
+290.809  Spaulders of the Careless Thief               200  Heroic Nexus                Grand Magus Telestra
+262.398  Sprinting Shoulderpads                        200  Ahn'kahet                   Elder Nadox
+256.721  Cermonial Pyre Mantle                         187  Utgarde Pinnacle            King Ymiron
+256.721  Spaulders of Frozen Knives                    187  Vendor                      Sons of Hodir
+223.234  Eviscerator's Shoulderpads                    187  Craftable
+
+
+
+TRINKET
+
+     DPS  Name                                  ilvl  Location                   Boss
+--------  ----------------------------------  ------  -------------------------  ---------------------
+828.579   Sharpened Twilight Scale (Heroic)      284  Heroic RS 25man            Halion
+734.013   Sharpened Twilight Scale               271  RS 25man                   Halion
+698.346   Deathbringer's Will (Heroic)           277  Heroic ICC 25man           Deathbringer Saurfang
+624.795   Whispering Fanged Skull (Heroic)       264  Heroic ICC 10man           Lady Deathwhisper
+621.297   Deathbringer's Will                    264  ICC 25man                  Deathbringer Saurfang
+600.675   Herkuml War Token                      264  Vendor                     60 EoF
+578.756   Death's Verdict (Heroic)               258  Heroic Trial 25man         Twin Valkyrs
+551.118   Whispering Fanged Skull                251  ICC 10man                  Lady Deathwhisper
+512.534   Death's Verdict                        245  Trial 25man                Twin Valkyrs
+496.06    Comet's Trail                          239  Uld 25man                  Algalon
+454.53    Needle-Encrusted Scorpion              232  Heroic The Forge of Souls  Devourer of Souls
+416.079   Blood of the Old God                   226  Uld 25man                  Yogg-Saron
+410.295   Dark Matter                            226  Uld 10man                  Algalon
+405.886   Mjolnir Runestone                      226  Uld 10man                  Thorim (Hard)
+384.851   Pyrite Infuser                         219  Uld 10man                  Flame Leviathan
+376.293   Grim Toll                              213  Naxx 25man                 Grobbulus
+344.825   Darkmoon Card: Greatness               200  Craftable
+342.699   Banner of Victory                      200  Trial of the Champion      Confessor Paletress
+323.846   Mirror of Truth                        200  Badge                      40 EoH
+309.459   Fury of the Five Flights               213  OS 10man                   Sartharion
+284.218   Meteorite Whetstone                    200  Heroic Utgarde Pinnacle    King Ymiron
+232.348   Vanquished Clutches of Yogg-Saron      226  Uld 25man                  Yogg-Saron
+218.697   Mark of Supremacy                      245  Vendor                     Triumph
+218.697   Shard of the Crystal Heart             245  Vendor                     Triumph
+188.453   Bandit's Insignia                      213  Naxx 25man                 Sapphiron
+184.511   Wrathstone                             226  Uld 25man                  Kologarn
+166.247   Victor's Call                          232  Trial 10man                Faction Champions
+166.247   Victor's Call (Heroic)                 245  Heroic Trial 10man         Faction Champions
+146.795   Incisor Fragment                       200  Heroic Drak'tharon         King Dred
+143.509   Loatheb's Shadow                       200  Naxx 10man                 Loatheb
+138.205   Mark of Norgannon                      226  EoE 25man                  Malygos
+115.502   Vestige of Haldor                      187  Utgarde Pinnacle           King Ymiron
+ 97.2019  Goblin Repetition Reducer              150  Vendor                     Venture Company
+ 93.9715  Sphere of Red Dragon's Blood           200  The Nexus                  Keristrasza
+  0       Tiny Abomination in a Jar              264  ICC 25man                  Professor Putricide
+  0       Tiny Abomination in a Jar (Heroic)     277  Heroic ICC 25man           Professor Putricide
+

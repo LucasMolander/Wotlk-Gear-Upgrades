@@ -19,8 +19,8 @@
     },
     {
         "Name": "Sharpened Twilight Scale",
-        "Category": "The Obsidian Sanctum 25",
-        "Location": "OS 25man",
+        "Category": "The Ruby Sanctum 25",
+        "Location": "RS 25man",
         "Boss": "Halion",
         "ilvl": 271,
         "Flat Stats": {
@@ -37,8 +37,8 @@
     },
     {
         "Name": "Sharpened Twilight Scale (Heroic)",
-        "Category": "Heroic The Obsidian Sanctum 25",
-        "Location": "Heroic OS 25man",
+        "Category": "Heroic The Ruby Sanctum 25",
+        "Location": "Heroic RS 25man",
         "Boss": "Halion",
         "ilvl": 284,
         "Flat Stats": {

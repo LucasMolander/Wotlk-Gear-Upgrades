@@ -1,0 +1,31 @@
+{
+    "Class": "Rogue",
+    "Spec":  "Assassination",
+    "Race":  "Night Elf",
+    "Current Gear": {
+        "Head":      "Geistlord's Punishment Sack",
+        "Neck":      "Wodin's Lucky Necklace",
+        "Shoulder":  "Cultist's Bloodsoaked Spaulders",
+        "Back":      "Shawl of Nerubian Silk",
+        "Chest":     "Ikfirus's Sack of Wonder (Heroic)",
+        "Bracer":    "Bracers of Swift Death",
+        "Gloves":    "Scourge Stranglers",
+        "Belt":      "Vengeful Noose",
+        "Legs":      "Gangrenous Leggings",
+        "Feet":      "Taldaram's Soft Slipper",
+        "Ring_1":    "Ashen Band of Endless Vengeance",
+        "Ring_2":    "Seal of the Twilight Queen",
+        "Trinket_1": "Whispering Fanged Skull",
+        "Trinket_2": "Herkuml War Token"
+    },
+    "Stat DPS": {
+        "AP":    1.030459594,
+        "Str":   1.133505554,
+        "Agi":   2.071223784,
+        "Crit":  1.896045653,
+        "Hit":   1.75178131,
+        "WE":    2.565844389,
+        "Haste": 1.926959441,
+        "Arpen": 1.257160705
+    }
+}

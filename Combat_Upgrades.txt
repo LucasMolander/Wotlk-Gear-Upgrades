@@ -1,0 +1,217 @@
+
+Current gear (Combat Rogue):
+
+Slot      Name                                 ilvl  Location           Boss                        DPS
+--------  ---------------------------------  ------  -----------------  ---------------------  --------
+Back      Shawl of Nerubian Silk                251  ICC 10man          Lord Marrowgar          481.155
+Belt      Vengeful Noose                        264  Vendor             60 EoF                  734.899
+Bracer    Bracers of Swift Death                245  Craftable                                  439.752
+Chest     Ikfirus's Sack of Wonder (Heroic)     277  Heroic ICC 25man   Gunship                1073.16
+Feet      Taldaram's Soft Slipper               251  ICC 10man          Blood Princes           636.061
+Gloves    Scourge Stranglers                    251  ICC 10man          Deathbringer Saurfang   646.209
+Head      Geistlord's Punishment Sack           264  ICC 25man          Blood Princes           886.639
+Legs      Gangrenous Leggings                   264  ICC 25man          Festergut               915.633
+Neck      Wodin's Lucky Necklace                264  ICC 25man          Trash                   499.366
+Ring      Ashen Band of Endless Vengeance       277  Ashen Verdict Rep  Ashen Verdict Rep       617.33
+Ring      Seal of the Twilight Queen            251  ICC 10man          Queen Lanathel          462.06
+Shoulder  Cultist's Bloodsoaked Spaulders       264  ICC 25man          Lady Deathwhisper       648.778
+Trinket   Whispering Fanged Skull               251  ICC 10man          Lady Deathwhisper       551.118
+Trinket   Herkuml War Token                     264  Vendor             60 EoF                  600.675
+
+
+
+Stat DPS:
+
+WE:	2.0030
+Hit:	1.7086
+Agi:	1.9157
+Arpen:	1.9157
+AP:	0.9919
+Haste:	1.7770
+Str:	1.0910
+Crit:	1.7084
+
+
+
+
+UPGRADES
+--------
+
+
+
+
+Back (Shawl of Nerubian Silk, 481.15 DPS)
+
+  DPS Diff  Name                                   ilvl  Location            Boss
+----------  -----------------------------------  ------  ------------------  ---------------
+   96.6086  Shadowvault Slayer's Cloak (Heroic)     277  Heroic ICC 25man    Gunship
+   77.9828  Vereesa's Dexterity                     272  Heroic Trial 25man  Perfect Tribute
+   60.0156  Shawl of Nerubian Silk (Heroic)         264  Heroic ICC 10man    Lord Marrowgar
+   30.8593  Shadowvault Slayer's Cloak              264  ICC 25man           Gunship
+   28.7208  Drape of the Violet Tower               264  Vendor              50 EoF
+   10.1317  Cloak of the Silver Covenant            258  Heroic Trial 10man  Perfect Tribute
+
+
+
+
+Belt (Vengeful Noose, 734.90 DPS)
+
+  DPS Diff  Name                                  ilvl  Location          Boss
+----------  ----------------------------------  ------  ----------------  -------------------
+   50.0311  Astrylian's Sutured Cinch (Heroic)     277  Heroic ICC 25man  Professor Putricide
+
+
+
+
+Bracer (Bracers of Swift Death, 439.75 DPS)
+
+  DPS Diff  Name                                          ilvl  Location            Boss
+----------  ------------------------------------------  ------  ------------------  ---------------------
+  147.445   Toskk's Maximized Wristguards (Heroic)         277  Heroic ICC 25man    Deathbringer Saurfang
+   79.6485  Vambraces of the Frost Wyrm Queen (Heroic)     264  Heroic ICC 10man    Sindragosa
+   70.1234  Toskk's Maximized Wristguards                  264  ICC 25man           Deathbringer Saurfang
+   50.734   Bracers of Dark Determination (Heroic)         258  Heroic Trial 25man  Anub'arak
+   21.2159  Vambraces of the Frost Wyrm Queen              251  ICC 10man           Sindragosa
+
+
+
+
+Chest (Ikfirus's Sack of Wonder (Heroic), 1073.16 DPS)
+
+DPS Diff    Name    ilvl    Location    Boss
+----------  ------  ------  ----------  ------
+
+
+
+
+Feet (Taldaram's Soft Slipper, 636.06 DPS)
+
+  DPS Diff  Name                                ilvl  Location          Boss
+----------  --------------------------------  ------  ----------------  -----------------
+  148.87    Frostbitten Fur Boots (Heroic)       277  Heroic ICC 25man  Lord Marrowgar
+   76.3665  Taldaram's Soft Slipper (Heroic)     264  Heroic ICC 10man  Blood Princes
+   66.6373  Footpads of Impending Death          264  Craftable
+   52.7911  Frostbitten Fur Boots                264  ICC 25man         Lord Marrowgar
+   25.6969  Treads of the Icewalker (Heroic)     258  Trial 25man       Faction Champions
+
+
+
+
+Gloves (Scourge Stranglers, 646.21 DPS)
+
+  DPS Diff  Name                                         ilvl  Location          Boss
+----------  -----------------------------------------  ------  ----------------  ---------------------
+  146.564   Aldriana's Gloves of Secrecy (Heroic)         277  Heroic ICC 25man  Rotface
+  117.452   Sanctified Shadowblade Gauntlets (Heroic)     269  Vendor            Mark
+   78.3503  Scourge Stranglers (Heroic)                   264  Heroic ICC 10man  Deathbringer Saurfang
+   59.1494  Aldriana's Gloves of Secrecy                  264  ICC 25man         Rotface
+   42.0992  Cat Burglar's Grips                           264  Vendor            60 EoF
+   32.11    Sanctified Shadowblade Gauntlets              269  Vendor            Mark
+
+
+
+
+Head (Geistlord's Punishment Sack, 886.64 DPS)
+
+  DPS Diff  Name                                      ilvl  Location          Boss
+----------  --------------------------------------  ------  ----------------  -------------------
+  136.164   Sanctified Shadowblade Helmet (Heroic)     269  Vendor            Mark
+  115.84    Geistlord's Punishment Sack (Heroic)       277  Heroic ICC 25man  Blood Princes
+   71.5555  Discarded Bag of Entrails (Heroic)         264  Heroic ICC 10man  Professor Putricide
+   17.4241  Sanctified Shadowblade Helmet              269  Vendor            Mark
+
+
+
+
+Legs (Gangrenous Leggings, 915.63 DPS)
+
+  DPS Diff  Name                                         ilvl  Location          Boss
+----------  -----------------------------------------  ------  ----------------  --------------
+  145.958   Sanctified Shadowblade Legplates (Heroic)     269  Vendor            Mark
+   68.8306  Gangrenous Leggings (Heroic)                  277  Heroic ICC 25man  Festergut
+   33.0373  Ivory-Inlaid Leggings (Heroic)                264  Heroic ICC 10man  Queen Lanathel
+   30.088   Bladeborn Leggings                            264  Craftable
+   25.9964  Sanctified Shadowblade Legplates              269  Vendor            Mark
+   16.7622  Plague-Soaked Leather Leggings (Heroic)       264  Heroic ICC 10man  Festergut
+
+
+
+
+Neck (Wodin's Lucky Necklace, 499.37 DPS)
+
+  DPS Diff  Name                                 ilvl  Location          Boss
+----------  ---------------------------------  ------  ----------------  ----------
+   91.943   Sindragosa's Cruel Claw (Heroic)      277  Heroic ICC 25man  Sindragosa
+   28.9074  Rimetooth Pendant (Heroic)            264  Heroic ICC 10man  Sindragosa
+   24.5356  Sindragosa's Cruel Claw               264  ICC 25man         Sindragosa
+   23.6327  Precious's Putrid Collar (Heroic)     264  Heroic ICC 10man  Festergut
+
+
+
+
+Ring_1 (Ashen Band of Endless Vengeance, 617.33 DPS)
+
+DPS Diff    Name    ilvl    Location    Boss
+----------  ------  ------  ----------  ------
+
+
+
+
+Ring_2 (Seal of the Twilight Queen, 462.06 DPS)
+
+  DPS Diff  Name                                    ilvl  Location            Boss
+----------  ------------------------------------  ------  ------------------  ---------------------
+  155.27    Ashen Band of Endless Vengeance          277  Ashen Verdict Rep   Ashen Verdict Rep
+  128.716   Seal of Many Mouths (Heroic)             277  Heroic ICC 25man    Rotface
+  125.137   Frostbrood Sapphire Ring (Heroic)        277  Heroic ICC 25man    Valithria Dreamwalker
+  113.797   Band of the Bone Colossus (Heroic)       277  Heroic ICC 25man    Lord Marrowgar
+   96.5338  Ashen Band of Unmatched Vengeance        268  Ashen Verdict Rep   Ashen Verdict Rep
+   93.0517  Seal of Many Mouths                      264  ICC 25man           Rotface
+   70.32    Saurfang's Cold-Forged Band (Heroic)     264  Heroic ICC 10man    Deathbringer Saurfang
+   58.4326  Seal of the Twilight Queen (Heroic)      264  Heroic ICC 10man    Queen Lanathel
+   58.278   Frostbrood Sapphire Ring                 264  ICC 25man           Valithria Dreamwalker
+   48.0469  Band of the Bone Colossus                264  ICC 25man           Lord Marrowgar
+   19.4577  Ashen Band of Greater Vengeance          259  Ashen Verdict Rep   Ashen Verdict Rep
+   15.7129  Ring of Callous Aggression (Heroic)      258  Heroic Trial 25man  Faction Champions
+   10.4366  Saurfang's Cold-Forged Band              251  ICC 10man           Deathbringer Saurfang
+
+
+
+
+Shoulder (Cultist's Bloodsoaked Spaulders, 648.78 DPS)
+
+  DPS Diff  Name                                         ilvl  Location          Boss
+----------  -----------------------------------------  ------  ----------------  ---------------------
+  125.342   Cultist's Bloodsoaked Spaulders (Heroic)      277  Heroic ICC 25man  Lady Deathwhisper
+  109.276   Sanctified Shadowblade Pauldrons (Heroic)     269  Vendor            Mark
+   74.5604  Skinned Whelp Shoulders (Heroic)              264  Heroic ICC 10man  Valithria Dreamwalker
+   24.6176  Sanctified Shadowblade Pauldrons              269  Vendor            Mark
+
+
+
+
+Trinket_1 (Whispering Fanged Skull, 551.12 DPS)
+
+  DPS Diff  Name                                 ilvl  Location            Boss
+----------  ---------------------------------  ------  ------------------  ---------------------
+  277.461   Sharpened Twilight Scale (Heroic)     284  Heroic RS 25man     Halion
+  182.895   Sharpened Twilight Scale              271  RS 25man            Halion
+  147.228   Deathbringer's Will (Heroic)          277  Heroic ICC 25man    Deathbringer Saurfang
+   73.677   Whispering Fanged Skull (Heroic)      264  Heroic ICC 10man    Lady Deathwhisper
+   70.179   Deathbringer's Will                   264  ICC 25man           Deathbringer Saurfang
+   49.5569  Herkuml War Token                     264  Vendor              60 EoF
+   27.6383  Death's Verdict (Heroic)              258  Heroic Trial 25man  Twin Valkyrs
+
+
+
+
+Trinket_2 (Herkuml War Token, 600.67 DPS)
+
+  DPS Diff  Name                                 ilvl  Location          Boss
+----------  ---------------------------------  ------  ----------------  ---------------------
+  227.904   Sharpened Twilight Scale (Heroic)     284  Heroic RS 25man   Halion
+  133.338   Sharpened Twilight Scale              271  RS 25man          Halion
+   97.6711  Deathbringer's Will (Heroic)          277  Heroic ICC 25man  Deathbringer Saurfang
+   24.12    Whispering Fanged Skull (Heroic)      264  Heroic ICC 10man  Lady Deathwhisper
+   20.6221  Deathbringer's Will                   264  ICC 25man         Deathbringer Saurfang
+

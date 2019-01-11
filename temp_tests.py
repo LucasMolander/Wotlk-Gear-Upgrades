@@ -53,17 +53,16 @@ class TempTests(object):
     def printAllGear(slot, globs):
         nameToPiece = globs.allGear[slot]
 
+        charInfo = globs.charInfo
+
         for name in nameToPiece:
             piece = nameToPiece[name]
-            piece['DPS'] = CalcUtil.calcDPS(piece, globs.statDPS, globs.charInfo)
+            piece['DPS'] = CalcUtil.calcDPS(piece, charInfo)
 
         items = sorted(list(nameToPiece.values()), lambda p1, p2: int(p2['DPS'] - p1['DPS']) )
         headers = ['Name', 'ilvl', 'DPS', 'Location', 'Boss']
 
         print(DataUtil.getTabulated(items, headers))
-
-        # for t in trinkets:
-        #     print(t['Name'])
 
 
 def main():
@@ -71,7 +70,7 @@ def main():
     # TempTests.printSlots(globs.allGear)
     # TempTests.ensureUniqueGearNames()
 
-    globs = Globals('SD_Combat.json')
+    globs = Globals('CharacterInfo.json')
     TempTests.printAllGear('Trinket', globs)
 
 
