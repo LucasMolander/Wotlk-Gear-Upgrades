@@ -1,1 +1,4 @@
 tabulate
+pycel-x
+koala2
+xlrd

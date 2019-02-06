@@ -46,8 +46,8 @@ BACK
 577.763  Shadowvault Slayer's Cloak (Heroic)         277  Heroic ICC 25man           Gunship
 559.137  Vereesa's Dexterity                         272  Heroic Trial 25man         Perfect Tribute
 541.17   Shawl of Nerubian Silk (Heroic)             264  Heroic ICC 10man           Lord Marrowgar
+518.68   Recovered Scarlet Onslaught Cape            264  Vendor                     50 EoF
 512.014  Shadowvault Slayer's Cloak                  264  ICC 25man                  Gunship
-509.875  Drape of the Violet Tower                   264  Vendor                     50 EoF
 491.286  Cloak of the Silver Covenant                258  Heroic Trial 10man         Perfect Tribute
 481.155  Shawl of Nerubian Silk                      251  ICC 10man                  Lord Marrowgar
 429.242  Drape of the Faceless General               226  Uld 10man                  General Vezax (Hard)

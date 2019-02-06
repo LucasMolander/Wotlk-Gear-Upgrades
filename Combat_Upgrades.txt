@@ -47,8 +47,8 @@ Back (Shawl of Nerubian Silk, 481.15 DPS)
    96.6086  Shadowvault Slayer's Cloak (Heroic)     277  Heroic ICC 25man    Gunship
    77.9828  Vereesa's Dexterity                     272  Heroic Trial 25man  Perfect Tribute
    60.0156  Shawl of Nerubian Silk (Heroic)         264  Heroic ICC 10man    Lord Marrowgar
+   37.5256  Recovered Scarlet Onslaught Cape        264  Vendor              50 EoF
    30.8593  Shadowvault Slayer's Cloak              264  ICC 25man           Gunship
-   28.7208  Drape of the Violet Tower               264  Vendor              50 EoF
    10.1317  Cloak of the Silver Covenant            258  Heroic Trial 10man  Perfect Tribute
 
 
